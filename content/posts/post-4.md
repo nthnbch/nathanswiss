@@ -1,31 +1,25 @@
 ---
-title: "Getting Started with Traveling Ultralight"
-date: 2020-03-18T12:13:35+05:30
-description: "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
-draft: true
+title: "Riding for a Cause: My Sixth Gentleman's Ride Experience"
+date: 2024-05-20T12:13:35+05:30
+description: "Join me for my sixth Gentleman's Ride, a fun event supporting prostate cancer and men's mental health."
+draft: false
+tldr: vroum vroum for balls.
 ---
 
-I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.
+## My Sixth Participation in the Gentleman's Ride: A Beautiful Experience
 
-I was a little surprised, because though I’ve gotten that comment before, it’s become normal for me to travel with just a small bag (10 lbs. or less, usually), and I have friends who travel with even less. But then I remembered that I’m far from normal in this way.
+Every year, the Gentleman's Ride holds a special place in my heart and my life. This year marks my sixth participation in this iconic event, and I'm more excited than ever to share what it represents to me, the causes it fights for, and why it's so special.
 
-I gave him a tip for getting started, and I recommend it for all of you, who want to travel light — or ultralight, as I call it, because for many people traveling light is taking a carry-on roller luggage. For me, having those roller bags is lugging too much, because you can run up stairs with it with ease, or carry it all over a city without worrying about stowing away your luggage somewhere first. It’s so much easier to travel ultralight.
+The Gentleman's Ride is more than just a motorcycle ride. It's a global initiative aimed at raising awareness and funds for prostate cancer research and men's mental health. The statistics are alarming: men die on average six years earlier than women, often for preventable reasons. That's why this event is so crucial. Participating in this ride means contributing to a global movement striving to improve men's health and well-being everywhere.
 
-Here’s the tip I gave him to get started: start by getting a small backpack (less than 20 liters) and then just travel with what fits in that.
+What sets the Gentleman's Ride apart is the spirit of camaraderie and solidarity among the participants. Imagine thousands of riders, all dressed in their finest tweed, riding classic and vintage motorcycles through cities worldwide. There's a festive, respectful, and elegant atmosphere that permeates this event. Each of us rides for a cause bigger than ourselves, creating a powerful bond between all participants.
 
-That’s how to start. But you’ll probably want some guidance on what to put into the bag, and how to travel with so little. Here’s some guidance to get started:
+For me, each Gentleman's Ride is a new opportunity to meet inspiring people, share stories, and strengthen friendships. This year's ride was particularly memorable. The route we took offered breathtaking scenery, and the planned stops allowed for moments of camaraderie and reflection. It's also a time for me to honor those affected by prostate cancer or mental health issues. It's a reminder of why we do what we do. The fight against prostate cancer and men's mental health issues is a cause close to my heart. By participating in the Gentleman's Ride, I feel not only useful but also connected to a global community that shares the same values. We ride for those who can't, to raise awareness and essential funds for research and support for men in need.
 
-* I travel with a lightweight laptop (Macbook Air), a few clothes, my phone, earbuds and some charging cords, toiletries, and almost nothing else. A lightweight windbreaker for wind and light rain (Patagonia Houdini). An eye mask and ear plugs. A collapsible water bottle. My passport. That’s about it. No extra shoes. No books. No suit. No travel pillow. No extra camera other than my phone. I’m not sure what else everyone else brings, but none of that.
-* I bring clothes that I can wash in the sink or shower and that will dry overnight. Lightweight stuff that I can layer. Often they’re workout-style clothes or things from companies like Outlier or Patagonia that travel well. I don’t bring enough underwear or socks for every day of the trip, because I wash them every couple of days. I only bring one or two extra T-shirts, generally wearing the same two shirts the whole trip, even if it’s a month long. No one has ever once cared what I wear when I’m traveling.
-* I bring minimal toiletries: a small shaver for my head, razor, toothbrush, floss small tubes of toothpaste and shaving cream, deodorant, nail clippers, ibuprofen.
-* For cold places, I have thermal underwear and a couple long-sleeve layers (generally all Patagonia capilene stuff), and a beanie. I don’t usually go to places where it’s snowing (I don’t know why, maybe snow isn’t my thing), so I don’t have clothes to deal with that weather.
-* For warm places, I will bring flip flops and swim trunks, and leave most of the colder layers behind.
+There's something profoundly beautiful about the Gentleman's Ride. It's more than just a motorcycle ride; it's a statement of solidarity, style, and compassion. Seeing hundreds of vintage and classic motorcycles riding together, all the riders dressed in elegant suits, is a nostalgic and inspiring sight. It's an event that celebrates life, community, and commitment to important causes.
 
-That’s enough for a monthlong trip, which I’ve done multiple times with this kind of setup. For a shorter trip of a few days, I might bring even less.
+What truly amazes me about the Gentleman's Ride is the diversity of people it brings together. Riders from all walks of life, different professions, genders, and backgrounds, all united by a common cause and a shared passion for motorcycles. It's a rare sight to see such a mix of individuals—each with their own unique style, riding different types of bikes, and yet, everyone is there for the same reason. This unity in diversity is what makes the event so special and heartwarming.
 
-I really love traveling this way, and am more than willing to sacrifice bringing extra things for the luxury of traveling lightweight.
+While the Gentleman's Ride is all about community and raising awareness for important causes, the rest of the year, I see motorcycling as a deeply personal escape. It's my way to unwind, reflect, and sometimes be selfish. Riding alone lets me clear my mind and find peace in the journey, a stark contrast to the collective spirit of the DGR.
 
-By the way, you don’t need much more than this kind of setup even in everyday life.
-
-For more info on this, check out my Ultralight ebook, and my friend Tynan has a great book called Forever Nomad.
-
+This sixth participation in the Gentleman's Ride was a deeply enriching and moving experience. It's an annual reminder of the importance of fighting for noble causes, connecting with like-minded people, and celebrating the beauty of solidarity and mutual support. If you've never participated in the Gentleman's Ride, I highly encourage you to do so. It's an adventure that contributes to a better world.

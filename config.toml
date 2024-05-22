@@ -2,14 +2,14 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Nathan Buache'
 theme="archie"
-copyright = " © Nathan B."
+copyright = ""
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-	mode="toggle"
+	mode="auto"
 	useCDN=false
-	subtitle = "Hello there! 👋🏻 "
+	subtitle = "Hello there! 👋🏻 I'm Nathan. You'll find here: social links, a short bio and some of my posts. Enjoy "
 
 [[params.social]]
 name = "GitHub"
