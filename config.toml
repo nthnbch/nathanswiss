@@ -2,12 +2,12 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Nathan Buache'
 theme="archie"
-copyright = "© Nathan B."
+copyright = " © Nathan B."
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-	mode="auto"
+	mode="toggle"
 	useCDN=false
 	subtitle = "Hello there! 👋🏻 "
 
@@ -19,17 +19,17 @@ url = "https://github.com/nthnbch"
 [[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
-url = "https://twitter.com/athulcajay/"
+url = "https://www.linkedin.com/in/nathanbuache/"
 
 [[params.social]]
 name = "GDR"
 icon = "heart"
-url = "https://twitter.com/athulcajay/"
+url = "https://gfolk.me/nthnbch"
 
 [[params.social]]
 name = "Instagram"
 icon = "instagram"
-url = "https://twitter.com/athulcajay/"
+url = "https://www.instagram.com/nthnbch/"
 
 [[params.social]]
 name = "Facebook"
@@ -39,22 +39,22 @@ url = "https://gitlab.com/athul/"
 [[params.social]]
 name = "QoQa"
 icon = "user-check"
-url = "https://gitlab.com/athul/"
+url = "https://www.qoqa.ch/fr/posts/5275"
 
 [[params.social]]
 name = "Mail"
 icon = "inbox"
-url = "https://github.com/nthnbch"
+url = "nathan@buache.com"
 
 [[params.social]]
 name = "Spotify"
 icon = "disc"
-url = "https://gitlab.com/athul/"
+url = "https://open.spotify.com/user/jo_margo?si=43630b796d6a462a"
 
 [[params.social]]
 name = "Discord"
 icon = "mic"
-url = "https://github.com/nthnbch"
+url = "https://discordapp.com/users/773992583286226973"
 
 
 [[menu.main]]
