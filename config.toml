@@ -9,21 +9,53 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "Hello there! 👋🏻 "
+
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/nthnbch"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
+name = "LinkedIn"
+icon = "linkedin"
 url = "https://twitter.com/athulcajay/"
 
 [[params.social]]
-name = "GitLab"
-icon = "gitlab"
+name = "GDR"
+icon = "heart"
+url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
 url = "https://gitlab.com/athul/"
+
+[[params.social]]
+name = "QoQa"
+icon = "user-check"
+url = "https://gitlab.com/athul/"
+
+[[params.social]]
+name = "Mail"
+icon = "inbox"
+url = "https://github.com/nthnbch"
+
+[[params.social]]
+name = "Spotify"
+icon = "disc"
+url = "https://gitlab.com/athul/"
+
+[[params.social]]
+name = "Discord"
+icon = "mic"
+url = "https://github.com/nthnbch"
+
 
 [[menu.main]]
 name = "Home"
@@ -39,8 +71,3 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4

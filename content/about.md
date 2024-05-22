@@ -1,28 +1,15 @@
 +++
 title = "About"
 description = "Hugo, the world’s fastest framework for building websites"
-date = "2019-02-28"
+date = "2024-05-22"
 aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+author = "NB"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Based in Lausanne 🇨🇭, I work at <a href="https://www.qoqa.ch/fr/concept">QoQa</a>, a company fueled by fun and craziness. As a <strong>Test Manager</strong>, my role is to ensure that websites and applications function as they should. With 7 years of experience in the QA field, I am known for being open, a bit crazy, and efficient in my work.
 
-Hugo makes use of a variety of open source projects including:
+I am a trained IT management technician who has turned my passion into my profession: I do what I love and love what I do. I have had and still have the chance to build a Quality Assurance department from scratch at the company I work for.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Starting almost from zero, I am particularly proud to say that QoQa now has a high standard of quality. The work involved applying a lot of common sense, self-training, as I learned my job "on the job," but above all, working closely with the development team so that we all work towards an ideal of quality. Most of the credit goes to this amazing team! ♥️
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
-
+Whether in my professional or personal life, I strive to improve things daily. Proud dad, proud husband, crazy otter.
