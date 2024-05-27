@@ -21,3 +21,5 @@ What truly amazes me about the Gentleman's Ride is the diversity of people it br
 While the Gentleman's Ride is all about community and raising awareness for important causes, the rest of the year, I see motorcycling as a deeply personal escape. It's my way to unwind, reflect, and sometimes be selfish. Riding alone lets me clear my mind and find peace in the journey, a stark contrast to the collective spirit of the DGR.
 
 This sixth participation in the Gentleman's Ride was a deeply enriching and moving experience. It's an annual reminder of the importance of fighting for noble causes, connecting with like-minded people, and celebrating the beauty of solidarity and mutual support. If you've never participated in the Gentleman's Ride, I highly encourage you to do so. It's an adventure that contributes to a better world.
+
+If you are curious, you can visit my [personnal GDR page](https://gfolk.me/nthnbch).
