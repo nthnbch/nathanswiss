@@ -1,6 +1,7 @@
 ---
 title: "From Curiosity to Quality"
 description: "From Curiosity to Quality, how I became a software tester"
+date: 2023-12-18T12:13:36+05:30
 draft: false  
 tldr: testing is cool.
 ---
