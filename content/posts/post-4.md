@@ -1,12 +1,10 @@
 ---
-title: "Riding for a Cause: My Sixth Gentleman's Ride Experience"
+title: "My Sixth Participation in the Gentleman's Ride: An Experience"
 date: 2024-05-20T12:13:35+05:30
 description: "Join me for my sixth Gentleman's Ride, a fun event supporting prostate cancer and men's mental health."
 draft: false
 tldr: vroum vroum for balls.
 ---
-
-## My Sixth Participation in the Gentleman's Ride: A Beautiful Experience
 
 Every year, the Gentleman's Ride holds a special place in my heart and my life. This year marks my sixth participation in this iconic event, and I'm more excited than ever to share what it represents to me, the causes it fights for, and why it's so special.
 

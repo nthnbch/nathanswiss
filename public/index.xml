@@ -16,18 +16,32 @@
       <description>Based in Lausanne 🇨🇭, I work at QoQa, a company fueled by fun and craziness. As a Test Manager, my role is to ensure that websites and applications function as they should. With 7 years of experience in the QA field, I am known for being open, a bit crazy, and efficient in my work.&#xA;I am a trained IT management technician who has turned my passion into my profession: I do what I love and love what I do.</description>
     </item>
     <item>
+      <title>My Sixth Participation in the Gentleman&#39;s Ride: An Experience</title>
+      <link>http://localhost:1313/posts/post-4/</link>
+      <pubDate>Mon, 20 May 2024 12:13:35 +0530</pubDate>
+      <guid>http://localhost:1313/posts/post-4/</guid>
+      <description>Every year, the Gentleman&amp;rsquo;s Ride holds a special place in my heart and my life. This year marks my sixth participation in this iconic event, and I&amp;rsquo;m more excited than ever to share what it represents to me, the causes it fights for, and why it&amp;rsquo;s so special.&#xA;The Gentleman&amp;rsquo;s Ride is more than just a motorcycle ride. It&amp;rsquo;s a global initiative aimed at raising awareness and funds for prostate cancer research and men&amp;rsquo;s mental health.</description>
+    </item>
+    <item>
+      <title>Why I ditched Google Chrome, And why you should too.</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Tue, 06 Feb 2024 02:01:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>Embracing a New Chapter: My Transition from Chrome to Arc Browser At the end of 2022, while reading about self-driving cars, my phone rang. It was a buddy excited about manned missions to Mars. As I glanced at my Mac and opened Chrome to learn more, I realized: everything around us is evolving rapidly, except our web browsers. They’ve remained almost the same for ages.&#xA;That was the moment I decided to change.</description>
+    </item>
+    <item>
+      <title>De la curiosité à la qualité</title>
+      <link>http://localhost:1313/posts/post-5/</link>
+      <pubDate>Thu, 18 Mar 2021 12:13:38 +0530</pubDate>
+      <guid>http://localhost:1313/posts/post-5/</guid>
+      <description>Bien que de nos jours, les carrières liées à l&amp;rsquo;informatique soient très prisées, je dois admettre que ce n&amp;rsquo;était pas du tout mon ambition initiale. Pourtant, la voie sinueuse qui m&amp;rsquo;a mené à devenir testeur logiciel est un beau témoignage de la puissance de la curiosité et de la persévérance.&#xA;Dès mon plus jeune âge, j&amp;rsquo;ai toujours été un enfant passionné et curieux de tout. Chaque nouveau jouet devenait rapidement un objet d&amp;rsquo;investigation approfondie.</description>
+    </item>
+    <item>
       <title></title>
       <link>http://localhost:1313/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/archives/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Hugo shortcodes</title>
-      <link>http://localhost:1313/posts/post-6/</link>
-      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
-      <guid>http://localhost:1313/posts/post-6/</guid>
-      <description>Images Dave Herring Dave Herring </description>
     </item>
   </channel>
 </rss>
