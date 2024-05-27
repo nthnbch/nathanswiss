@@ -9,7 +9,7 @@ tldr: Arc is the new Chrome
 
 At the end of 2022, while reading about self-driving cars, my phone rang. It was a buddy excited about manned missions to Mars. As I glanced at my Mac and opened Chrome to learn more, I realized: everything around us is evolving rapidly, except our web browsers. They’ve remained almost the same for ages.
 
-That was the moment I decided to change. Why stick with an old-school browser when everything else is transforming? That’s when I decided to give Arc Browser a shot.
+That was the moment I decided to change. Why stick with an old-school browser when everything else is transforming? That's when I decided to give [Arc Browser](https://arc.net?source=nathan.swiss) a shot.
 
 #### Why Leave Chrome?
 
