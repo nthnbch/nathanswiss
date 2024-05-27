@@ -1,7 +1,7 @@
 ---
 title: "My Sixth Participation in the Gentleman's Ride: An Experience"
 date: 2024-05-20T12:13:35+05:30
-description: "Join me for my sixth Gentleman's Ride, a fun event supporting prostate cancer and men's mental health."
+description: "Join me for my sixth Gentleman's Ride"
 draft: false
 tldr: vroum vroum for balls.
 ---

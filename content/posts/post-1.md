@@ -1,7 +1,7 @@
 ---
 title: "Why I ditched Google Chrome, And why you should too."
 date: 2024-02-06T02:01:58+05:30
-description: "Discover why I switched from Chrome to Arc Browser and how it revolutionized my web navigation both personally and professionally."
+description: "Discover why I switched from Chrome to Arc Browser."
 tldr: Arc is the new Chrome
 ---
 
