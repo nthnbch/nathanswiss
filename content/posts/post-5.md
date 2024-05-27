@@ -1,22 +1,22 @@
 ---
-title: "De la curiosité à la qualité"
-date: 2021-03-18T12:13:38+05:30
-description: Voici un article de blog sur le thème "De la curiosité à la qualité, comment je suis devenu un testeur logiciel
-draft: false
-tldr: le test, c'est cool.
+title: "From Curiosity to Quality"
+description: "From Curiosity to Quality, how I became a software tester"
+draft: false  
+tldr: testing is cool.
 ---
-Bien que de nos jours, les carrières liées à l'informatique soient très prisées, je dois admettre que ce n'était pas du tout mon ambition initiale. Pourtant, la voie sinueuse qui m'a mené à devenir testeur logiciel est un beau témoignage de la puissance de la curiosité et de la persévérance.
 
-Dès mon plus jeune âge, j'ai toujours été un enfant passionné et curieux de tout. Chaque nouveau jouet devenait rapidement un objet d'investigation approfondie. Je voulais comprendre comment cela fonctionnait, quels en étaient les rouages et les mécanismes. Bien souvent, mes parents me retrouvaient au milieu de pièces démontées, que je ne rangeais d'ailleurs que rarement.
+Although nowadays, careers related to computer science are highly sought after, I must admit that it was not at all my initial ambition. Yet, the winding path that led me to become a software tester is a beautiful testament to the power of curiosity and perseverance.
 
-Cette fibre exploratrice ne m'a jamais quitté, que ce soit à l'école, au travail ou dans la vie en général. J'aimais remettre les choses en question, chercher à comprendre les tenants et les aboutissants. Lorsque j'ai découvert le monde de l'informatique et des logiciels, ce fut une véritable révélation ou presque.
+From a very young age, I have always been a passionate and curious child about everything. Each new toy quickly became an object of thorough investigation. I wanted to understand how it worked, what were its mechanisms. Very often, my parents would find me in the middle of disassembled pieces, which I rarely put back together, by the way.
 
-Au départ, tout n'était qu'un simple passe-temps pour moi. J'explorais les différents programmes, les systèmes d'exploitation, par pure curiosité. Mais très vite, je me suis rendu compte que ma nature méticuleuse et mon oeil "aiguisé"" pour détecter les moindres anomalies représentaient une réelle addiction. Après de nombreaux détours et beaucoup de chance, j'ai commencé à m'intéresser sérieusement au métier de testeur logiciel. Un domaine qui allie à la perfection ma soif de compréhension et mon souci du détail. Chaque nouvelle application, chaque mise à jour devenait un défi stimulant : décortiquer le code, reproduire tous les scénarios possibles, identifier les potentiels bogues ou défaillances.
+This exploratory fiber never left me, whether at school, at work or in life in general. I liked to question things, to try to understand the ins and outs. When I discovered the world of computing and software, it was an almost true revelation.
 
-Au fil du temps et de l'expérience, j'ai appris à maîtriser les différentes techniques et méthodologies de tests. "Des tests unitaires aux tests d'intégration en passant par les tests de performance et de sécurité, aucun aspect n'échappe à ma vigilance accrue". ENfin c'est que j'aimerais vous dire, mais ça serait vous mentir, ces trois domaines me sont actuellement complétement inconnus. J'ai hâte d'apprendre, mais actuellement mes compétences "se limitent" aux tests End2End, aux tests manuels, aux tests automatisés, aux tests exploratoires mais également à la gestion des tests dans sa globalité. Le plus fun reste à mon sens de vouloir "casser" la plateforme que l'on teste, non pas par méchanceté envers le dév qui a travaillé dessus, mais justement par respect. En mettant à l'épreuve le code, je le mets au centre, je le regarde sous un amimum d'angle, avec comme but utltime sa perfection.
+At first, it was just a simple hobby for me. I explored the different programs, operating systems, out of pure curiosity. But very quickly, I realized that my meticulous nature and my "sharp" eye for detecting the slightest anomalies represented a real asset. After many detours and a lot of luck, I started to seriously consider the profession of software tester. A field that perfectly combines my thirst for understanding and my eye for detail. Each new application, each update became a stimulating challenge: dissecting the code, reproducing all possible scenarios, identifying potential bugs or failures. 
 
-Mais au-delà des compétences techniques, ce métier m'a également appris la valeur de la communication et du travail d'équipe. En tant que testeur, je suis l'interface indispensable entre les développeurs et les utilisateurs finaux. Mon rôle est de garantir que le produit soit non seulement fonctionnel, mais également convivial et accessible à tous.
+Over time and experience, I have learned to master the different testing techniques and methodologies. From unit tests to integration tests to performance and security tests, no aspect escapes my heightened vigilance. Well, that's what I would like to tell you, but it would be lying, those three areas are currently completely unknown to me. I can't wait to learn, but currently my skills are "limited" to End2End testing, manual testing, automated testing, exploratory testing as well as overall test management. The most fun, in my opinion, is wanting to "break" the platform we're testing, not out of spite towards the dev who worked on it, but out of respect. By putting the code to the test, I put it at the center, I look at it from as many angles as possible, with the ultimate goal of perfecting it.
 
-Ainsi, de cette curiosité enfantine est née une véritable passion pour la qualité. Chaque jour, je contribue à rendre les applications plus robustes, plus fiables et plus agréables à utiliser. Et même si le chemin a été long et sinueux, je suis fier d'avoir suivi les méandres de ma nature exploratrice jusqu'à cette carrière vraiment fun.
+But beyond the technical skills, this profession has also taught me the value of communication and teamwork. As a tester, I am the essential interface between developers and end users. My role is to ensure that the product is not only functional, but also user-friendly and accessible to all.
 
-La curiosité, cette étincelle qui nous anime dès le plus jeune âge, peut nous mener sur des voies insoupçonnées. Il suffit de la cultiver, de l'entretenir, et de la canaliser vers un métier qui devient un hobby.
+Thus, from this childlike curiosity was born a true passion for quality. Every day, I contribute to making applications more robust, more reliable and more enjoyable to use. And even if the path has been long and winding, I am proud to have followed the meanders of my exploratory nature all the way to this really fun career.
+
+Curiosity, that spark that animates us from the earliest age, can lead us down unsuspected paths. All you have to do is cultivate it, nurture it, and channel it into a job that becomes a hobby.
