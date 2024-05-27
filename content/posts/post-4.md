@@ -22,4 +22,4 @@ While the Gentleman's Ride is all about community and raising awareness for impo
 
 This sixth participation in the Gentleman's Ride was a deeply enriching and moving experience. It's an annual reminder of the importance of fighting for noble causes, connecting with like-minded people, and celebrating the beauty of solidarity and mutual support. If you've never participated in the Gentleman's Ride, I highly encourage you to do so. It's an adventure that contributes to a better world.
 
-If you are curious, you can visit my [personnal GDR page](https://gfolk.me/nthnbch).
+If you are curious, you can visit my [personal GDR page](https://gfolk.me/nthnbch).
