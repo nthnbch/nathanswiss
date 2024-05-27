@@ -12,19 +12,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Change to public directory
-      run: cd public
+      - name: Change to public directory
+        run: cd public
 
-    - name: Liste des fichiers dans le dossier public
-      run: ls -lR
+      - name: Liste des fichiers dans le dossier public
+        run: ls -lR
 
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_SERVER_BU }}
-        username: ${{ secrets.FTP_USERNAME_BU }}
-        password: ${{ secrets.FTP_PASSWORD_BU }}
-        server-dir: /nathanswiss/
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER_BU }}
+          username: ${{ secrets.FTP_USERNAME_BU }}
+          password: ${{ secrets.FTP_PASSWORD_BU }}
+          server-dir: /nathanswiss/
+
+  pushover-actions:
+    name: send pushover push
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: pushover-actions
+        uses: umahmood/pushover-actions@main
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_APITOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USERNAME }}
+        with:
+          status: ${{ job.status }}
+          title: 'Github Repo nathan.swiss'
+          message: 'Le site a été mis à jour'
+          url: 'https://nathan.swiss'
