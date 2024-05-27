@@ -28,3 +28,16 @@ jobs:
         username: ${{ secrets.FTP_USERNAME_BU }}
         password: ${{ secrets.FTP_PASSWORD_BU }}
         server-dir: /nathanswiss/
+    pushover-actions:
+      runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2 
+          - name: pushover-actions
+            uses: umahmood/pushover-actions@main
+            env:
+              PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_APITOKEN }}
+              PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+            with:
+              status: ${{ job.status }}
+              title: 'nathan.swiss repo update'
+              message: 'nathan.swiss has been update'
