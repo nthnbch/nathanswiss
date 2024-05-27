@@ -4,7 +4,7 @@ title = 'Nathan Buache'
 theme="archie"
 copyright = ""
 pygmentsstyle = "monokai"
-pygmentscodefences = true
+pygmentscodefences = false
 pygmentscodefencesguesssyntax = true
 [params]
 	mode="light"
@@ -34,7 +34,7 @@ url = "https://www.instagram.com/nthnbch/"
 [[params.social]]
 name = "Facebook"
 icon = "facebook"
-url = "https://gitlab.com/athul/"
+url = "https://www.facebook.com/nthnbch"
 
 [[params.social]]
 name = "QoQa"
@@ -44,7 +44,7 @@ url = "https://www.qoqa.ch/fr/posts/5275"
 [[params.social]]
 name = "Mail"
 icon = "inbox"
-url = "nathan@buache.com"
+url = "mailto:nathan@buache.com"
 
 [[params.social]]
 name = "Spotify"

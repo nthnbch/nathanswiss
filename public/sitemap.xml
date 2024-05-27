@@ -8,10 +8,10 @@
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/posts/post-4/</loc>
     <lastmod>2024-05-20T12:13:35+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post-4/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-05-20T12:13:35+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-1/</loc>
