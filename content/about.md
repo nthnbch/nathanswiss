@@ -12,6 +12,6 @@ I am a trained IT management technician who has turned my passion into my profes
 
 Starting almost from zero, I am particularly proud to say that QoQa now has a high standard of quality. The work involved applying a lot of common sense, self-training, as I learned my job "on the job," but above all, working closely with the development team so that we all work towards an ideal of quality. Most of the credit goes to this amazing team! ♥️
 
-I read a lot, appreciate good food, drink hazy beers and like intersting people.
+I read a lot, appreciate good food, drink hazy beers and like interesting people.
 
 Whether in my professional or personal life, I strive to improve things daily. I pursue the future me by doing everything to make him proud of me.
