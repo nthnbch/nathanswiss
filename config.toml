@@ -1,73 +1,63 @@
-baseURL = 'https://nathan.swiss/'
-languageCode = 'en-us'
-title = 'Nathan Buache'
-theme="archie"
-copyright = ""
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+baseURL = "https://nathan.swiss/"
+languageCode = "en-US"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Nathan Buache"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
 [params]
-	mode="light"
-	useCDN=false
-	subtitle = "Hello there! 👋🏻 I'm Nathan. You'll find here: social links, a short bio and some of my posts. Enjoy "
+  google_analytics_id = "G-FFR91K2J2Y"
+  twitter_handle = ""
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+  showPostsOnHomepage = false
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 1 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = false
+  highlightColor = '#E73E01'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#1c1b1d"
+  textColor = "#000000"
+  dotColor = "#E73E01"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+  fontFamilyHeading = "Poppins"
+  fontFamilyParagraph = "Helvetica"
+  fontFamilyMonospace = "monospace"
 
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/nthnbch"
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/nathanbuache/"
-
-[[params.social]]
-name = "GDR"
-icon = "heart"
-url = "https://gfolk.me/nthnbch"
-
-[[params.social]]
-name = "Instagram"
-icon = "instagram"
-url = "https://www.instagram.com/nthnbch/"
-
-[[params.social]]
-name = "Facebook"
-icon = "facebook"
-url = "https://www.facebook.com/nthnbch"
-
-[[params.social]]
-name = "QoQa"
-icon = "user-check"
-url = "https://www.qoqa.ch/fr/posts/5275"
-
-[[params.social]]
-name = "Mail"
-icon = "inbox"
-url = "mailto:nathan@buache.com"
-
-[[params.social]]
-name = "Spotify"
-icon = "disc"
-url = "https://open.spotify.com/user/jo_margo?si=43630b796d6a462a"
-
-[[params.social]]
-name = "Discord"
-icon = "mic"
-url = "https://discordapp.com/users/773992583286226973"
-
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Accueil'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    identifier = "Blog"
+    weight = 2
+    url = "/blog/"
+  [[menu.main]]
+    name = "About"
+    identifier = "aboutme"
+    weight = 3
+    url = "/aboutme/"
