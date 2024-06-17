@@ -1,2 +1,5 @@
 
 /themes/archie
+.DS_Store
+public/.DS_Store
+public/blog/.DS_Store
