@@ -3,7 +3,7 @@ title: 'About'
 url: "/aboutme/"
 ---
 
-# TL;DR: i test stuff from Switzerland.
+# TL;DR: i test stuff.
 
 Based in Lausanne 🇨🇭, I work at QoQa, a company fueled by fun and craziness. As a **Test Manager**, my role is to ensure that websites and applications function as they should. With 7 years of experience in the QA field, I am known for being open, a bit crazy, and efficient in my work.
 
