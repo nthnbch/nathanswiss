@@ -2,7 +2,7 @@
 title: "Back to school"
 description: "My experience of returning to my former school to share experience to current students based on my own career path"
 date: 2024-06-26T12:13:36+05:30
-draft: false  
+draft: true  
 tldr: old  man talking to young people
 ---
 
