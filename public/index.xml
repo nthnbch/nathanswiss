@@ -43,5 +43,12 @@
       <guid>https://nathan.swiss/aboutme/</guid>
       <description>TL;DR: i test stuff. Based in Lausanne 🇨🇭, I work at QoQa, a company fueled by fun and craziness. As a Test Manager, my role is to ensure that websites and applications function as they should. With 7 years of experience in the QA field, I am known for being open, a bit crazy, and efficient in my work.&#xA;I am a trained IT management technician who has turned my passion into my profession: I do what I love and love what I do.</description>
     </item>
+    <item>
+      <title>Back to school</title>
+      <link>https://nathan.swiss/blog/etml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathan.swiss/blog/etml/</guid>
+      <description>Ten years ago, I left ETML-ES with my diploma in hand, and last June 25th, I had the chance to go back in time by returning to my old school. It was nice to see the places and meet the final year students.&#xA;As I prepared for my presentation, I wondered how I could talk about myself while also talking about them. A difficult exercise, because I must admit that I was never a huge fan of academic learning, and I was far from being the best student in the class.</description>
+    </item>
   </channel>
 </rss>
