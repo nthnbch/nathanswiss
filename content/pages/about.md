@@ -1,6 +1,6 @@
 ---
 title: 'About'
-url: "/aboutme/"
+url: "/about/"
 ---
 
 # TL;DR: i test stuff.

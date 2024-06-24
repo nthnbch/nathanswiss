@@ -53,11 +53,11 @@ pygmentsUseClasses = true
     weight = 1
   [[menu.main]]
     name = "Blog"
-    identifier = "Blog"
+    identifier = "posts"
     weight = 2
-    url = "/blog/"
+    url = "/posts/"
   [[menu.main]]
     name = "About"
-    identifier = "aboutme"
+    identifier = "about"
     weight = 3
-    url = "/aboutme/"
+    url = "/about/"
