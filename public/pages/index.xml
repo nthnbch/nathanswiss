@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Nathan Buache</title>
-    <link>https://nathan.swiss/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Nathan Buache</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="https://nathan.swiss/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://nathan.swiss/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nathan.swiss/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>TL;DR: i test stuff. Based in Lausanne 🇨🇭, I work at QoQa, a company fueled by fun and craziness. As a Test Manager, my role is to ensure that websites and applications function as they should. With 7 years of experience in the QA field, I am known for being open, a bit crazy, and efficient in my work.&#xA;I am a trained IT management technician who has turned my passion into my profession: I do what I love and love what I do.</description>
     </item>
   </channel>
