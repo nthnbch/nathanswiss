@@ -1,6 +1,6 @@
 ---
 title: "QoQa Beta, The Core of the QoQa Community"
-description: "Why it took me 15 years to obtain my (hopefully) last personal website"
+description: "800+ hardcore fans-beta-testers of QoQa testing our apps. for real."
 date: 2024-09-29T12:13:36+05:30
 draft: false  
 tldr: beta testing is fun
