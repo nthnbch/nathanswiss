@@ -29,7 +29,7 @@ Arc’s reliance on Chromium means it’s bound by these changes. And while The 
 
 #### Enter Zen Browser: A Fresh Take on Familiar Ideas
 
-Recently, I discovered [Zen Browser](zen-browser.app), a Firefox-based alternative inspired by Arc. Zen takes the best of Arc’s innovative design while building on Firefox’s commitment to privacy and extensibility. With Firefox as its foundation, Zen avoids the pitfalls of Chromium’s Manifest V3 and offers a future-proof browsing experience.
+Recently, I discovered [Zen Browser](https://zen-browser.app), a Firefox-based alternative inspired by Arc. Zen takes the best of Arc’s innovative design while building on Firefox’s commitment to privacy and extensibility. With Firefox as its foundation, Zen avoids the pitfalls of Chromium’s Manifest V3 and offers a future-proof browsing experience.
 
 Zen feels like a natural evolution—a browser that captures what made Arc special while addressing its limitations. Its focus on user freedom, privacy, and adaptability aligns with my values and needs as both a professional and a tech enthusiast.
 
