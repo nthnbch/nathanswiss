@@ -1,6 +1,6 @@
 ---
 title: "Why I’m Leaving Arc: The Browser That Redefined My Web Experience (But Might Be Losing Its Way)"
-date: 2025-01-07T02:01:58+05:30
+date: 2025-01-06T02:01:58+05:30
 description: "Discover why I’m switching from Arc to Zen Browser."
 draft: false
 ---
