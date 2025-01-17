@@ -1,6 +1,6 @@
 ---
 title: "Leaving Your Job: A Difficult but Necessary Choice"
-date: "2025-01-18T15:00:00+01:00"
+date: "2025-02-05T15:00:00+01:00"
 description: "Exploring the challenges and opportunities of leaving a beloved role as Test Manager, balancing personal growth and professional evolution."
 draft: true
 ---
