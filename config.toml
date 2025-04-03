@@ -3,7 +3,8 @@ languageCode = "en-US"
 theme = "hugo-winston-theme"
 themesDir = "themes"
 title = "Nathan Buache"
-paginate = 3
+[pagination]
+  pagerSize = 10
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
