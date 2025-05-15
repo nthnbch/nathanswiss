@@ -1,10 +1,8 @@
 ---
-title: Welcome!
-description: Nathan Buache
+title: Nathan
+description: 
 
 ---
-
- I’m Nathan
 
 Helvetic rider, *heraldry enthusiast*, **Test Manager** by day, blindtest king by night.  
 Part-time *geek*, **full-time dad** — and proud **côte de bœuf grillmaster**.

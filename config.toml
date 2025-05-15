@@ -24,14 +24,14 @@ pygmentsUseClasses = true
   usePaginationOnHomepage = false
   limitPostsOnHomepage = 1 # only used if usePaginationOnHomepage is false
   sortPostsByDateOldestFirst = false
-  addDot = false
+  addDot = true
   addFrame = true
   highlightColor = '#5096EE'
   baseColor = "#ffffff"
   baseOffsetColor = "#eaeaea"
   headingColor = "#5096EE"
   textColor = "#000000"
-  dotColor = "#E73E01"
+  dotColor = "#faaa33"
   enableGoogleFonts = true 
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
   fontFamilyHeading = "Poppins"
