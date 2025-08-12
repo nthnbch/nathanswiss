@@ -1,5 +1,7 @@
 ---
-title: "Why I’m Leaving Arc: The Browser That Redefined My Web Experience (But Might Be Losing Its Way)"
+title### Why I'm Leaving Arc: The Browser That Redefined My Web Experience (But Might Be Losing Its Way)
+
+At the end of 2022, I made a pivotal change in my digital habits: I [left Google Chrome for Arc Browser](/posts/arc). Arc wasn't just a new browser—it was a breath of fresh air in a landscape dominated by stagnant design and functionality. For a while, it felt like the future of web navigation was unfolding right before me. But now, as 2025 begins, I find myself reconsidering my choice, not because Arc isn't great, but because its future feels uncertain.Why I’m Leaving Arc: The Browser That Redefined My Web Experience (But Might Be Losing Its Way)"
 date: 2025-01-06T02:01:58+05:30
 description: "Discover why I’m switching from Arc to Zen Browser."
 draft: false
