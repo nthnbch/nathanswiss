@@ -1,9 +1,19 @@
+# Hugo default output directory
+/public/
 
-/themes/archie
+# OS generated files
 .DS_Store
-public/.DS_Store
-public/blog/.DS_Store
-public/.DS_Store
-public/.DS_Store
-.DS_Store
-.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Generated files by hugo
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Temporary lock file while building
+/.hugo_build.lock
