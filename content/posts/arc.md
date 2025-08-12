@@ -31,4 +31,4 @@ A Personal and Professional Revolution
 
 In conclusion, switching to Arc Browser was much more than just a browser change. It represented an evolution in how I interact with the web, both personally and professionally. Arc isn't just an alternative to Chrome; it's a tool that redefines what it means to navigate the Internet, especially for professionals like me.
 
-**Update (January 2025)**: While Arc was revolutionary when I wrote this article, my browser journey didn't end here. I later moved to Zen Browser for reasons I explain in [my follow-up article](/posts/zen).
+Update (January 2025): While Arc was revolutionary when I wrote this article, my browser journey didn't end here. I later moved to Zen Browser for reasons I explain in [my follow-up article](/posts/zen).
