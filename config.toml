@@ -15,7 +15,7 @@ pygmentsUseClasses = true
     min = "0.55.0"
 
 [params]
-  google_analytics_id = ""  # Ce sera remplacé par la variable d'environnement
+  google_analytics_id = ""  # Will be replaced by the environment variable
   twitter_handle = ""
   showAuthorOnHomepage = false
   showAuthorOnPosts = false

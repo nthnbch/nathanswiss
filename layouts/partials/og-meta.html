@@ -7,7 +7,7 @@
 {{ with .Params.image }}
 <meta property="og:image" content="{{ . | absURL }}" />
 {{ else }}
-<!-- Utiliser une image par défaut si aucune n'est spécifiée -->
+<!-- Use a default image if none is specified -->
 <meta property="og:image" content="{{ "favicon.png" | absURL }}" />
 {{ end }}
 

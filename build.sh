@@ -1,28 +1,28 @@
 #!/bin/bash
 
-# Ce script charge les variables d'environnement et lance Hugo
+# This script loads environment variables and launches Hugo
 
-# Charger les variables d'environnement depuis .env
+# Load environment variables from .env
 if [ -f .env ]; then
-  echo "Chargement des variables d'environnement depuis .env"
+  echo "Loading environment variables from .env"
   export $(grep -v '^#' .env | xargs)
 else
-  echo "Fichier .env non trouvé. Utilisez .env.example comme modèle."
+  echo ".env file not found. Use .env.example as a template."
   exit 1
 fi
 
-# Créer le fichier config.toml temporaire avec les valeurs des variables d'environnement
-# Note: ici on utilise sed pour remplacer la valeur vide de google_analytics_id par celle de la variable d'environnement
+# Create temporary config.toml with environment variable values
+# Note: using sed to replace the empty google_analytics_id value with the environment variable
 if [ ! -z "$HUGO_GOOGLE_ANALYTICS_ID" ]; then
   sed -i'' -e "s/google_analytics_id = \"\"/google_analytics_id = \"$HUGO_GOOGLE_ANALYTICS_ID\"/" config.toml
-  echo "Google Analytics ID injecté depuis la variable d'environnement"
+  echo "Google Analytics ID injected from environment variable"
 fi
 
-# Lancer Hugo avec les arguments passés au script
-echo "Lancement de Hugo..."
+# Launch Hugo with the arguments passed to the script
+echo "Launching Hugo..."
 hugo "$@"
 
-# Restaurer le fichier config.toml original après l'exécution de Hugo
+# Restore the original config.toml after Hugo execution
 git checkout -- config.toml
 
-echo "Terminé!"
+echo "Done!"

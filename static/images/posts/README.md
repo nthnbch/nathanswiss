@@ -1,24 +1,24 @@
-# Répertoire d'images pour les articles
+# Image Directory for Blog Posts
 
-Placez ici les images utilisées dans vos articles de blog.
+Place images used in your blog posts here.
 
-## Utilisation dans les articles Markdown
+## Usage in Markdown Articles
 
-Dans les frontmatter de vos articles, référencez les images comme suit :
+In your article frontmatter, reference images as follows:
 
 ```yaml
 ---
-title: "Titre de l'article"
+title: "Article Title"
 date: 2024-08-12
-description: "Description de l'article"
-image: images/posts/nom-de-votre-image.jpg  # Chemin relatif depuis static/
-imageAltAttribute: Description alternative de l'image
+description: "Article Description"
+image: images/posts/your-image-name.jpg  # Relative path from static/
+imageAltAttribute: Alternative description of the image
 ---
 ```
 
-## Organisation recommandée
+## Recommended Organization
 
-Pour une meilleure organisation, vous pouvez créer des sous-dossiers pour chaque article :
+For better organization, you can create subfolders for each article:
 
 ```
 static/
@@ -32,5 +32,5 @@ static/
         ...
 ```
 
-Puis référencer ces images dans vos articles comme :
+Then reference these images in your articles as:
 `image: images/posts/article1/image1.jpg`
