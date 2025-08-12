@@ -1,26 +1,26 @@
-# Nathan Swiss - Site Personnel
+# Nathan Swiss - Personal Website
 
-Ce dépôt contient le code source de mon site personnel [nathan.swiss](https://nathan.swiss).
+This repository contains the source code for my personal website [nathan.swiss](https://nathan.swiss).
 
-## Technologies utilisées
+## Technologies Used
 
-- [Hugo](https://gohugo.io/) - Générateur de sites statiques
-- Thème : [Hugo Winston Theme](https://github.com/zerostaticthemes/hugo-winston-theme/)
+- [Hugo](https://gohugo.io/) - Static site generator
+- Theme: [Hugo Winston Theme](https://github.com/zerostaticthemes/hugo-winston-theme/)
 
-## Structure du projet
+## Project Structure
 
-- `content/` : Articles et pages du site
-- `layouts/` : Mise en page personnalisée
-- `static/` : Ressources statiques (images, etc.)
-- `themes/` : Thème Hugo Winston (inclus comme sous-module Git)
-- `config.toml` : Configuration du site
+- `content/` : Articles and pages
+- `layouts/` : Custom layouts
+- `static/` : Static resources (images, etc.)
+- `themes/` : Hugo Winston theme (included as a Git submodule)
+- `config.toml` : Site configuration
 
-## Gestion des variables d'environnement et secrets
+## Google Analytics Configuration
 
-Ce projet utilise un système de variables d'environnement pour gérer les informations sensibles :
+To add your Google Analytics ID:
 
-1. Copiez le fichier `.env.example` en `.env`
-2. Remplissez les valeurs dans `.env` avec vos propres informations
-3. Utilisez le script `build.sh` pour construire le site au lieu de la commande `hugo` directe
+1. Open the `config.toml` file
+2. Find the line `google_analytics_id = ""`
+3. Replace the empty quotes with your Google Analytics ID: `google_analytics_id = "UA-XXXXXXXX-X"`
 
-**Note** : Le fichier `.env` n'est pas versionné dans Git pour des raisons de sécurité.
+That's it! When you build the site with Hugo, your Google Analytics tracking code will be automatically included.
