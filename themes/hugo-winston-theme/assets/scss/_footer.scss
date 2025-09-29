@@ -1,19 +1,33 @@
 .footer {
-    margin-top: 30px;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--outline-variant);
     @include breakpoint('small') {
-      padding-top: 40px;
+      padding-top: 32px;
+      margin-top: 64px;
     }
   }
-  
+
   .social-icon {
-    margin-right: 10px;
+    margin-right: 16px;
+    display: inline-block;
+    transition: all 0.2s ease;
     a {
       text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--surface-container);
+      color: var(--on-surface-variant);
+      transition: all 0.2s ease;
       &:hover {
         text-decoration: none;
-        img {
-          opacity: 0.7;
-        }
+        background: var(--primary-container);
+        color: var(--on-primary-container);
+        transform: scale(1.1);
       }
     }
   }
