@@ -1,10 +1,9 @@
 a {
   color: var(--primary);
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.2s ease;
   &:hover {
     color: var(--primary);
-    text-decoration: underline;
   }
 }
 
@@ -162,7 +161,7 @@ ul {
     font-family: var(--font-family-monospace);
   }
   code {
-    background: var(--surface-container);
+    background: var(--surface-container-low);
     padding: 2px 6px;
     border-radius: var(--border-radius-small);
     font-size: 0.9em;

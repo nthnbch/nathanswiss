@@ -1,53 +1,67 @@
-# Hugo Winston Theme
+# Hugo White Paper Theme
 
-Hugo Winston is a bold minimal blogging theme.
+A clean, modern Hugo theme inspired by Material You design principles. Built for readability, performance, and elegance.
 
-[Live Demo](https://hugo-winston.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io/)
+## Features
 
-![Hugo Winston Theme screenshot](https://www.zerostatic.io/theme/hugo-winston/hugo-winston-screenshot.png)
+- **Material You Design**: Authentic implementation of Google's Material Design 3
+- **Clean Typography**: Roboto font family with proper hierarchy
+- **Minimal Layout**: Focus on content with subtle visual enhancements
+- **Responsive Design**: Optimized for all screen sizes
+- **Fast Loading**: Lightweight and optimized assets
+- **Accessible**: WCAG compliant color contrasts and navigation
 
-## Theme features
+## Color Scheme
 
-- Posts (Markdown)
-- Basic Page (Markdown)
-- SCSS (Hugo Pipelines)
-- Responsive design
-- 100/100 Google Lighthouse speed score
-- 100/100 Google Lighthouse SEO score
-- 100/100 Google Lighthouse accessibility score
-- Google analytics configured in `config.toml`
-- Configure GID using env variable HUGO_GOOGLE_ANALYTICS_ID, compatible with Netlify.
-- Title, meta description and meta tags automatically generated for every page
-- OG Meta data for Facebook and Twitter
-- Semantic HTML document structure
+- Primary: `#6750a4` (Material You purple)
+- Surface: `#fef7ff` (Clean white with subtle tint)
+- Text: `#1d1b20` (High contrast dark)
+- Links: Always underlined for clarity
 
 ## Installation
 
-**1. Install Hugo**
+1. Clone this theme into your `themes/` directory:
+   ```bash
+   git clone https://github.com/yourusername/hugo-white-paper-theme themes/hugo-white-paper-theme
+   ```
 
-To use this theme you will first need to have Hugo installed. Please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
+2. Update your `config.toml`:
+   ```toml
+   theme = "hugo-white-paper-theme"
+   ```
 
-> ⚠️ **Note:** Check your Hugo version - **Hugo Extended** is required!
+3. Configure your fonts in `config.toml`:
+   ```toml
+   [params]
+     googleFontsUrl = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+     fontFamilyHeading = "Roboto"
+     fontFamilyParagraph = "Roboto"
+     fontFamilyMonospace = "Roboto Mono"
+   ```
 
-This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets which means if you are not using the Hugo extended version this theme will not work. To check your version of Hugo, run `hugo version`. Make sure you see **/extended** after the version number, for example _Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown_ You do not need to use version v0.51 specifically, it just needs to have the _/extended_ part.
+## Customization
 
-**2. Create a new Hugo site**
+The theme uses CSS custom properties for easy customization. Override these in your own CSS file:
 
-This will create a fresh Hugo site in the folder `mynewsite`.
-
+```css
+:root {
+  --primary: #your-color;
+  --surface: #your-surface-color;
+  --on-surface: #your-text-color;
+}
 ```
-hugo new site mynewsite
-```
 
-**3. Install the theme**
+## Development
 
-Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/hugo-winston-theme`
+Built with:
+- Hugo static site generator
+- SCSS for styling
+- Material You design tokens
+- Responsive grid system
 
-```
-cd mynewsite
-git clone https://github.com/zerostaticthemes/hugo-winston-theme.git themes/hugo-winston-theme
-```
+## License
+
+MIT License - feel free to use and modify for your projects.
 
 **4. Copy the example content**
 

@@ -1,6 +1,6 @@
 baseURL = "https://nathan.swiss/"
 languageCode = "en-US"
-theme = "hugo-winston-theme"
+theme = "hugo-white-paper-theme"
 themesDir = "themes"
 title = "Nathan Buache"
 [pagination]
@@ -62,3 +62,8 @@ pygmentsUseClasses = true
     identifier = "about"
     weight = 3
     url = "/about/"
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 4
+    url = "/projects/"

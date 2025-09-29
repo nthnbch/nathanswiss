@@ -1,0 +1,14 @@
+name = "Hugo White Paper"
+license = "MIT"
+licenselink = "https://github.com/zerostaticthemes/hugo-winston/blob/master/LICENSE"
+description = "Hugo White Paper is a clean Material You inspired blogging theme"
+
+homepage = "https://github.com/zerostaticthemes/hugo-white-paper-theme"
+demosite = "https://hugo-white-paper.netlify.app"
+
+tags = ["blog", "minimal", "clean", "material-you", "modern"]
+features = ["blog", "material-design"]
+
+[author]
+  name = "Nathan Buache"
+  homepage = "https://nathan.swiss"

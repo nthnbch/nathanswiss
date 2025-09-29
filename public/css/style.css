@@ -171,11 +171,10 @@ h1, h2, h3 {
 
 a {
   color: var(--primary);
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.2s ease; }
   a:hover {
-    color: var(--primary);
-    text-decoration: underline; }
+    color: var(--primary); }
 
 h1,
 h2,
@@ -307,7 +306,7 @@ ul {
   .content pre {
     font-family: var(--font-family-monospace); }
   .content code {
-    background: var(--surface-container);
+    background: var(--surface-container-low);
     padding: 2px 6px;
     border-radius: var(--border-radius-small);
     font-size: 0.9em;

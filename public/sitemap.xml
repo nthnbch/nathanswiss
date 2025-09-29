@@ -2,51 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:63302/</loc>
     <lastmod>2025-08-12T09:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/zen-folders/</loc>
+    <loc>http://localhost:63302/posts/zen-folders/</loc>
     <lastmod>2025-08-12T09:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/change/</loc>
+    <loc>http://localhost:63302/posts/change/</loc>
     <lastmod>2025-04-02T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:63302/posts/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/zen/</loc>
+    <loc>http://localhost:63302/posts/zen/</loc>
     <lastmod>2025-01-06T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/herald/</loc>
+    <loc>http://localhost:63302/posts/herald/</loc>
     <lastmod>2024-12-12T10:15:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gtd/</loc>
+    <loc>http://localhost:63302/posts/gtd/</loc>
     <lastmod>2024-11-09T09:30:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/qoqabeta/</loc>
+    <loc>http://localhost:63302/posts/qoqabeta/</loc>
     <lastmod>2024-09-29T12:13:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/etml/</loc>
+    <loc>http://localhost:63302/posts/etml/</loc>
     <lastmod>2024-06-26T10:00:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/swiss/</loc>
+    <loc>http://localhost:63302/posts/swiss/</loc>
     <lastmod>2024-06-08T12:13:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dgr/</loc>
+    <loc>http://localhost:63302/posts/dgr/</loc>
     <lastmod>2024-05-20T12:13:35+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/arc/</loc>
+    <loc>http://localhost:63302/posts/arc/</loc>
     <lastmod>2024-02-06T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/qa/</loc>
+    <loc>http://localhost:63302/posts/qa/</loc>
     <lastmod>2023-12-18T12:13:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:63302/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:63302/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>http://localhost:63302/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:63302/pages/</loc>
+  </url><url>
+    <loc>http://localhost:63302/tags/</loc>
   </url>
 </urlset>
