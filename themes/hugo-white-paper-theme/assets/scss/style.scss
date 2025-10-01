@@ -34,9 +34,9 @@
   --outline-variant: #cac4d0;
 
   /* Typography - Material You */
-  --font-family-heading: 'Roboto', sans-serif;
-  --font-family-paragraph: 'Roboto', sans-serif;
-  --font-family-monospace: 'Roboto Mono', monospace;
+  --font-family-heading: 'UnifrakturCook', serif;
+  --font-family-paragraph: '{{ .Site.Params.fontFamilyParagraph | default "Roboto" }}', sans-serif;
+  --font-family-monospace: '{{ .Site.Params.fontFamilyMonospace | default "Roboto Mono" }}', monospace;
 
   /* Elevation */
   --shadow-key-penumbra-opacity: 0.2;

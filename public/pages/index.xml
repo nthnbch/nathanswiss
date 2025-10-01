@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Nathan Buache</title>
-    <link>http://localhost:63302/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:63302/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://localhost:63302/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63302/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Based in Lausanne, I work as a &lt;strong&gt;Test Manager&lt;/strong&gt;, making sure websites and applications work exactly as they should.&lt;br&gt;&#xA;With over 8 years of experience in QA, I’m known for being open-minded, and just the right amount of crazy.&lt;/p&gt;&#xA;&lt;p&gt;Originally trained in IT management, I turned my passion into my profession:&lt;br&gt;&#xA;I love what I do, and I do what I love.&lt;/p&gt;&#xA;&lt;p&gt;I had the opportunity to build the &lt;strong&gt;Quality Assurance department from the ground up&lt;/strong&gt; at QoQa.ch, shaping both processes and mindset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>my little projects</title>
-      <link>http://localhost:63302/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63302/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description>&lt;p&gt;Here are some of the projects I&amp;rsquo;m currently working on or have worked on recently. These are my little experiments, side projects, and things that keep me learning and growing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-current-projects&#34;&gt;🚀 Current Projects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;qoqa-platform&#34;&gt;QoQa Platform&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; Active Development&lt;br&gt;&#xA;A comprehensive quality assurance platform that helps teams manage testing workflows, track bugs, and ensure product quality. Built with modern web technologies and a focus on user experience.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Technologies:&lt;/em&gt; React, Node.js, PostgreSQL, Docker&lt;/p&gt;</description>
     </item>
   </channel>
