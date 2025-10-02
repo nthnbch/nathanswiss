@@ -1,7 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: 'As soon as Winston had dealt with each of the messages, he clipped his speakwritten corrections to the appropriate copy of the Times and pushed them into the pneumatic tube. '
-image: images/cctv.jpeg
-draft: true
+draft: false
+description: 'A brief description of your post. This will appear in search results and social media previews.'
 ---
+
+Write your post content here.

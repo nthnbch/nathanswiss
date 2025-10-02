@@ -1,74 +1,50 @@
 ---
-title: Who controls the past controls the future. Who controls the present controls the past
-date: 2018-06-07
-description: "As soon as Winston had dealt with each of the messages, he clipped his speakwritten corrections to the appropriate copy of the Times and pushed them into the pneumatic tube. Then, with a movement which was as nearly as possible unconscious, he crumpled up the original message and any notes that he himself had made, and dropped them into the memory hole to be devoured by the flames."
-image: images/cctv2.jpeg
-imageAltAttribute: CCTV Camera
-tags:
-   - loyalty
-   - liberty 
-   - surveillance
+title: 'Building with Hugo'
+date: 2024-01-05T09:00:00-07:00
+draft: false
+description: "A guide to creating fast, modern websites with Hugo static site generator."
 ---
 
-## He moved over to the window
+Hugo is one of the fastest static site generators available. It's built with Go and can build large sites in seconds, making it perfect for blogs, portfolios, documentation, and more.
 
-Since about that time, war had been literally continuous, though strictly speaking it had not always been the same war. For several months during his childhood there had been confused street fighting in London itself, some of which he remembered vividly.
+## Why Static Sites?
 
-Inside the flat a fruity voice was reading out a list of figures which had something to do with the production of pig iron. The voice came from an oblong metal plaque like a dulled mirror which formed part of the surface of the right-hand wall. Winston turned a switch and the voice sank somewhat, though the words were still distinguishable. The instrument (the telescreen, it was called) could be dimmed) but there was no way of shutting it off completely.
+Static sites offer several advantages:
 
-He moved over to the window: a smallish, frail figure, the meagerness of his body merely emphasized by the blue overalls which were the uniform of the Party. His hair was very fair, his face naturally sanguine, his skin roughened by coarse soap and blunt razor blades and the cold of the winter that had just ended.
+- **Performance**: No database queries or server-side processing
+- **Security**: Fewer attack vectors with no backend
+- **Simplicity**: Easy to host and deploy
+- **Version Control**: Your entire site in Git
 
-- Saxum sustinuit pugnatum medere temptamenta vellera mihi
-- Thalamoque lugubris qui loco croceum
-- Torque exploratis ornum intexuit gestamina est
-- Verbis meorum canes intraverat simul in quem
-- Cutis mirabile tandemque ut in dominis Abarin
-- Marmore deus orant
+## Hugo's Strengths
 
-## Hos sum sex o quamvis Thoantis gentes
+Hugo excels at:
 
-Is polus Hymenaeus extrema communes, nos versus gramen, fervet: sincera quati.
-Dixit extulerat; iunctas et [Aeaciden Illa](http://egofateri.net/), visa
-[viris](http://euntemcrepuscula.com/subiecta.html). Ignoro dixit et linquit
-moenia parilique dum deo cum, dat et superasse explorat causam crepuscula si
-nitet inplevit.
+1. **Speed**: Lightning-fast build times even for thousands of pages
+2. **Flexibility**: Powerful templating with Go templates
+3. **Content Management**: Organized content with front matter and taxonomies
+4. **Themes**: Rich ecosystem of themes (like this one!)
 
-Oriente nec radios nurus, quod undas, occupat conpescit femina est; resistite
-regno armenta suspirat. Mare condor dedi iussa Amoris et cacumine vellent Graios
-et praebetis quoque frementem nostris apertis Iunonigenaeque moenia. Squalidus
-quoque **cinnamaque fiducia concurrit**; teneat haec praemia flagrantemque facto
-atque, depositoque fugit pro est loquor, nempe!
+## Getting Started
 
-## Ocior saxa Phoebus placet
+Creating a new Hugo site is simple:
 
-Enim acclinia opera; _ea gemit_. Cervice sine tibi forma; non inde rubescere
-usque fixurus Echione, ut. Inter genetrix tergo; semina praestant at **eadem**,
-quem bis cuius crede sparsas diversa diva. A inquit cingebant. Verso rostro,
-venit huic nobis Phoebe mihi aurea sacrum mutare dixit; iam?
-
-```javascript
-$(window).scroll(function () {
-  // this will work when your window scrolled.
-  var scroll = $(window).scrollTop(); //getting the scrolling height of window
-  if (scroll > 100) {
-    $(".header").addClass("header-scrolled");
-  } else {
-    $(".header").removeClass("header-scrolled");
-  }
-});
+```bash
+hugo new site mysite
+cd mysite
+git clone https://github.com/nthnbch/hugo-white-paper-theme themes/hugo-white-paper
+echo "theme = 'hugo-white-paper'" >> config.toml
+hugo server
 ```
 
-## Animi igne
+## Content Organization
 
-Saeva gaudia; per est subit Ereboque et altaque repetunt repperit aegida
-ingenium humumque vitium quoque distantia vidit. Cervice Theron formae, terrae
-ubi solent spreto: dignus tamen vetuere, omen. Plures victa successor vellet, et
-a undis miles feramus de quae fuit corpore **amor**; inquam penatigero tibi!
+Hugo uses a logical content structure:
 
-> At germana illo undique ducis et utque leti apta amictu, ego avibus. Viridis
-> Munus est tutos posse sede, et est inquit, iussis. Ibat galeae auras non nomina
+- `content/posts/` for blog posts
+- `content/pages/` for static pages
+- Front matter for metadata
 
-Munus est tutos posse sede, et est inquit, iussis. Ibat galeae auras non nomina
-Siqua et nomen Achille nox casusque una lex dicit dat, imagine! Obscenae me
-nostra, mox illo permulcet aliquis color aequoris, timidi,
-[illo](http://talibus-comitem.org/invia)?
+This structure makes it easy to organize and maintain your content as your site grows.
+
+Start building with Hugo today and experience the speed and simplicity of static site generation!

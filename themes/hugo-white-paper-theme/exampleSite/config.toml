@@ -1,49 +1,29 @@
-baseURL = "/"
-languageCode = "en-us"
-theme = "hugo-winston-theme"
-themesDir = "themes"
-title = "Hugo Winston Theme"
-paginate = 3
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.55.0"
+baseURL = "https://example.com/"
+languageCode = "en-US"
+theme = "hugo-white-paper-theme"
+title = "Hugo White Paper Theme"
 
 [params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
-  showAuthorOnHomepage = true
+  showAuthorOnHomepage = false
   showAuthorOnPosts = false
   showIntroContentOnHomepage = true
-  showPostsOnHomepage = false
+  showPostsOnHomepage = true
   usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  limitPostsOnHomepage = 3
   sortPostsByDateOldestFirst = false
   addDot = true
-  addFrame = true
-  highlightColor = '#7b16ff'
-  baseColor = "#ffffff"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#1c1b1d"
-  textColor = "#4e5157"
-  dotColor = "#7b16ff"
+  addFrame = false
+  highlightColor = '#000000'
+  baseColor = "#fdfbff"
+  baseOffsetColor = "#f7f2fa"
+  headingColor = "#1c1b1f"
+  textColor = "#49454f"
+  dotColor = "#000000"
   enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
-
-# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=UnifrakturCook:wght@700&display=swap"
+  fontFamilyHeading = "UnifrakturCook"
+  fontFamilyParagraph = "Inter"
+  fontFamilyMonospace = "Inter"
 
 [menu]
   [[menu.main]]
@@ -53,16 +33,11 @@ pygmentsUseClasses = true
     weight = 1
   [[menu.main]]
     name = "Blog"
-    identifier = "blog"
+    identifier = "posts"
     weight = 2
     url = "/posts/"
   [[menu.main]]
     name = "About"
     identifier = "about"
     weight = 3
-    url = "/About/"
-  [[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    weight = 4
-    url = "/tags/"
+    url = "/about/"

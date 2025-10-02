@@ -1,172 +1,170 @@
 # Hugo White Paper Theme
 
-A clean, modern Hugo theme inspired by Material You design principles. Built for readability, performance, and elegance.
+A clean, modern Hugo theme featuring Fraktur typography and Material Design principles. Built for readability, elegance, and performance.
+
+![Hugo White Paper Theme](https://nathan.swiss/screenshot.png)
 
 ## Features
 
-- **Material You Design**: Authentic implementation of Google's Material Design 3
-- **Clean Typography**: Roboto font family with proper hierarchy
-- **Minimal Layout**: Focus on content with subtle visual enhancements
+- **Fraktur Typography**: Beautiful UnifrakturCook headings with Inter body text
+- **Material Design**: Clean implementation of Material Design 3 principles
+- **Minimalist Layout**: Focus on content with subtle visual enhancements
 - **Responsive Design**: Optimized for all screen sizes
 - **Fast Loading**: Lightweight and optimized assets
+- **SEO Optimized**: Comprehensive meta tags, Schema.org markup, and Open Graph
 - **Accessible**: WCAG compliant color contrasts and navigation
 
-## Color Scheme
+## Demo
 
-- Primary: `#6750a4` (Material You purple)
-- Surface: `#fef7ff` (Clean white with subtle tint)
-- Text: `#1d1b20` (High contrast dark)
-- Links: Always underlined for clarity
+Live demo: [nathan.swiss](https://nathan.swiss)
 
 ## Installation
 
-1. Clone this theme into your `themes/` directory:
-   ```bash
-   git clone https://github.com/yourusername/hugo-white-paper-theme themes/hugo-white-paper-theme
-   ```
+### Method 1: Git Submodule (Recommended)
 
-2. Update your `config.toml`:
-   ```toml
-   theme = "hugo-white-paper-theme"
-   ```
+```bash
+cd your-hugo-site
+git submodule add https://github.com/nthnbch/hugo-white-paper-theme themes/hugo-white-paper-theme
+```
 
-3. Configure your fonts in `config.toml`:
-   ```toml
-   [params]
-     googleFontsUrl = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-     fontFamilyHeading = "Roboto"
-     fontFamilyParagraph = "Roboto"
-     fontFamilyMonospace = "Roboto Mono"
-   ```
+### Method 2: Clone
+
+```bash
+cd your-hugo-site
+git clone https://github.com/nthnbch/hugo-white-paper-theme themes/hugo-white-paper-theme
+```
+
+### Method 3: Download
+
+Download the theme from GitHub and extract it to `themes/hugo-white-paper-theme`
+
+## Configuration
+
+Update your `config.toml`:
+
+```toml
+theme = "hugo-white-paper-theme"
+title = "Your Site Name"
+
+[params]
+  # Google Analytics (optional)
+  google_analytics_id = "G-XXXXXXXXXX"
+  
+  # Display options
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+  showPostsOnHomepage = false
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 1
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = false
+  
+  # Colors (Material Design)
+  highlightColor = '#000000'
+  baseColor = "#fdfbff"
+  baseOffsetColor = "#f7f2fa"
+  headingColor = "#1c1b1f"
+  textColor = "#49454f"
+  dotColor = "#000000"
+  
+  # Fonts
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=UnifrakturCook:wght@700&display=swap"
+  fontFamilyHeading = "UnifrakturCook"
+  fontFamilyParagraph = "Inter"
+  fontFamilyMonospace = "Inter"
+```
+
+## Content Structure
+
+```
+content/
+├── _index.md           # Homepage
+├── pages/
+│   ├── about.md       # About page
+│   └── projects.md    # Projects page
+└── posts/
+    ├── _index.md      # Blog listing
+    └── post-name.md   # Individual posts
+```
 
 ## Customization
 
-The theme uses CSS custom properties for easy customization. Override these in your own CSS file:
+### Colors
+
+The theme uses CSS custom properties for easy color customization:
 
 ```css
 :root {
-  --primary: #your-color;
-  --surface: #your-surface-color;
-  --on-surface: #your-text-color;
+  --primary: #000000;
+  --on-primary: #ffffff;
+  --surface: #fef7ff;
+  --on-surface: #1d1b20;
+  --on-surface-variant: #49454f;
+}
+```
+
+Override these in `assets/css/extended/custom.css`
+
+### Typography
+
+Customize fonts in your `config.toml`:
+
+```toml
+[params]
+  fontFamilyHeading = "Your Heading Font"
+  fontFamilyParagraph = "Your Body Font"
+  fontFamilyMonospace = "Your Code Font"
+```
+
+## Social Links
+
+Add social links in `data/social.json`:
+
+```json
+{
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/yourusername"
+    }
+  ]
 }
 ```
 
 ## Development
 
-Built with:
-- Hugo static site generator
-- SCSS for styling
-- Material You design tokens
-- Responsive grid system
+### Prerequisites
+
+- Hugo Extended v0.55.0 or higher
+- Go (optional, for Hugo Modules)
+
+### Local Development
+
+```bash
+# From your Hugo site root
+hugo server
+
+# Or from the theme directory
+hugo server --source=exampleSite --themesDir=../..
+```
 
 ## License
 
-MIT License - feel free to use and modify for your projects.
+MIT License - See [LICENSE](LICENSE) file for details
 
-**4. Copy the example content**
+## Credits
 
-Copy the entire contents of the `mynewsite/themes/hugo-winston-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
+Created by [Nathan Buache](https://nathan.swiss)
 
-```
-cp -a themes/hugo-winston-theme/exampleSite/. .
-```
+## Support
 
-**6. Run Hugo**
-
-After installing the theme for the first time, generate the Hugo site.
-
-You run this command from the root folder of your Hugo site ie `mynewsite`
-
-```
-hugo
-```
-
-For local development run Hugo's built-in local server.
-
-```
-hugo server
-```
-
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
-
-# Localhost inside exampleSite
-
-You can run this site without installing it as a hugo theme using the following command. I use this for theme development.
-
-```
-hugo server --source=exampleSite --theme=../..
-```
-
-# Configuration
-
-### Config options
-
-```toml
-# config.toml
-[params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
-  showAuthorOnHomepage = true
-  showAuthorOnPosts = false
-  showIntroContentOnHomepage = true
-  showPostsOnHomepage = true
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
-  sortPostsByDateOldestFirst = false
-  addDot = true
-  addFrame = true
-  highlightColor = '#7b16ff'
-  baseColor = "#ffffff"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#1c1b1d"
-  textColor = "#4e5157"
-  dotColor = "#7b16ff"
-  enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
-```
-
-### Google Analytics
-
-Add your google analytics ID to the `config.toml`
-
-```toml
-# config.toml
-[params]
-  google_analytics_id="UA-132398315-1"
-```
-
-### Plausible Analytics
-
-Add your plausible analytics domain to the `config.toml`.
-This is `data-domain` in your [tracking script code](https://plausible.io/docs/plausible-script).
-
-```toml
-# config.toml
-[params]
-  plausible_analytics_domain = "example.com"
-```
-
-# Deploying to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-winston-theme)
-
-This theme includes a `netlify.toml` which is [configured to deploy to Netlify](https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508) from the `exampleSite` folder. If you have installed this theme into a new Hugo site and the exampleSite folder was copied or removed, you should delete the `netlify.toml` file.
-
-
-### More Hugo Themes by Zerostatic
-
-- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open-source business theme
-- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme) - Open-source documentation theme
-- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open-source business theme
-- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open-source blog theme
-- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium advanced multi page business & marketing theme
-- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium landing page + site builder theme
-- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium personal / bio theme
-- [Hugo Shard](https://www.zerostatic.io/theme/hugo-lever/) - Premium SAAS / landing page theme
-
-### Find hundreds more Hugo themes on Built At Lightspeed
-
-[<img alt="Built At Lightspeed Hugo themes directory screenshot" width="400px" src="https://www.zerostatic.io/images/builtatlightspeed-hugo-themes.jpg" />](https://builtatlightspeed.com/category/hugo)
+- [Documentation](https://github.com/nthnbch/hugo-white-paper-theme/wiki)
+- [Issues](https://github.com/nthnbch/hugo-white-paper-theme/issues)
+- [Discussions](https://github.com/nthnbch/hugo-white-paper-theme/discussions)
