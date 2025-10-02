@@ -1,0 +1,4 @@
+[submodule "themes/hugo-white-paper-theme"]
+	path = themes/hugo-white-paper-theme
+	url = https://github.com/nthnbch/hugo-white-paper-theme.git
+	branch = master
