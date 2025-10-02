@@ -16,3 +16,9 @@
 .summary-title a:hover {
   text-decoration: none !important;
 }
+
+/* Use Fraktur font for specific class */
+.fraktur-word {
+  font-family: 'UnifrakturCook', serif !important;
+  font-weight: 700 !important;
+}

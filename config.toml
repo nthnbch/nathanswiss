@@ -7,6 +7,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+# Disable taxonomies (tags, categories) completely
+disableKinds = ["taxonomy", "term"]
+
 [module]
   [module.hugoVersion]
     extended = true
