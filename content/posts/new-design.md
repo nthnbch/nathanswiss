@@ -1,6 +1,6 @@
 ---
 title: "New Design, New Font, I Did It Again"
-date: 2025-10-02T15:30:00+02:00
+date: 2025-10-02T15:20:00+02:00
 draft: false
 description: "Complete redesign of nathan.swiss with Fraktur typography, Material Design 3, and a brand new Hugo theme now available for everyone."
 ---
@@ -36,14 +36,6 @@ Features:
 - Fully responsive
 - SEO optimized out of the box
 - MIT licensed
-
-Anyone can use it:
-
-```bash
-git submodule add -b master https://github.com/nthnbch/hugo-white-paper-theme.git themes/hugo-white-paper-theme
-```
-
-The theme includes comprehensive documentation, a working example site, and a proper MIT license. I might even submit it to the official Hugo themes repository.
 
 ## The Process
 
