@@ -5,6 +5,9 @@ a {
   &:hover {
     color: var(--primary);
   }
+  &:visited {
+    color: var(--on-surface);
+  }
 }
 
 h1,

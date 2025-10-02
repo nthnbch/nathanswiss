@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hello world on Nathan Buache</title>
+    <title>nathan buache on Nathan Buache</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in hello world on Nathan Buache</description>
+    <description>Recent content in nathan buache on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 12 Aug 2025 09:00:00 +0100</lastBuildDate>
@@ -90,7 +90,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Based in Lausanne, I work as a &lt;strong&gt;Test Manager&lt;/strong&gt;, making sure websites and applications work exactly as they should.&lt;br&gt;&#xA;With over 8 years of experience in QA, I’m known for being open-minded, and just the right amount of crazy.&lt;/p&gt;&#xA;&lt;p&gt;Originally trained in IT management, I turned my passion into my profession:&lt;br&gt;&#xA;I love what I do, and I do what I love.&lt;/p&gt;&#xA;&lt;p&gt;I had the opportunity to build the &lt;strong&gt;Quality Assurance department from the ground up&lt;/strong&gt; at QoQa.ch, shaping both processes and mindset.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Based in Lausanne, I work as a &lt;strong&gt;Test Manager&lt;/strong&gt;, making sure websites and applications work as they should.&lt;br&gt;&#xA;With 8+ years of experience in QA, I’m known for being open-minded, and just the right amount of crazy.&lt;/p&gt;&#xA;&lt;p&gt;Originally trained in IT management, I turned my passion into my profession:&lt;br&gt;&#xA;I love what I do, and I do what I love.&lt;/p&gt;&#xA;&lt;p&gt;I had the opportunity to build the &lt;strong&gt;Quality Assurance department from the ground up&lt;/strong&gt; at QoQa.ch, shaping both processes and mindset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>my little projects</title>

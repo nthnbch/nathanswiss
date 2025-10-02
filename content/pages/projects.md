@@ -1,6 +1,7 @@
 ---
 title: 'my little projects'
 url: "/projects/"
+description: Portfolio of Nathan Buache's projects including QoQa Platform, testing frameworks, and web development experiments. Explore current and past work.
 ---
 
 Here are some of the projects I'm currently working on or have worked on recently. These are my little experiments, side projects, and things that keep me learning and growing.

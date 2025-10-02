@@ -8,26 +8,29 @@
     }
   }
 
-  .social-icon {
-    margin-right: 16px;
-    display: inline-block;
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .social-link {
     transition: all 0.2s ease;
     a {
       text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: var(--surface-container);
-      color: var(--on-surface-variant);
+      color: var(--on-surface);
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: lowercase;
       transition: all 0.2s ease;
       &:hover {
-        text-decoration: none;
-        background: var(--primary-container);
-        color: var(--on-primary-container);
-        transform: scale(1.1);
+        color: var(--primary);
+        text-decoration: underline;
+      }
+      &:visited {
+        color: var(--on-surface);
       }
     }
   }
