@@ -21,7 +21,7 @@ pygmentsUseClasses = true
   usePaginationOnHomepage = false
   limitPostsOnHomepage = 1 # only used if usePaginationOnHomepage is false
   sortPostsByDateOldestFirst = false
-  addDot = true
+  # Typography and Design
   highlightColor = '#000000'
   baseColor = "#fdfbff"
   baseOffsetColor = "#f7f2fa"
