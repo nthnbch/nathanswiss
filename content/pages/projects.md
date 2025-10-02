@@ -1,5 +1,5 @@
 ---
-title: 'my side projects'
+title: 'my sideprojects.'
 url: "/projects/"
 description: Portfolio of Nathan Buache's projects including QoQa Beta, Zenlink, and various web experiments. Explore current and past work.
 ---

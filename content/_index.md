@@ -1,5 +1,5 @@
 ---
-title: nathan buache
+title: nathan buache.
 description: Test Manager based in Lausanne, Switzerland. QA specialist, blindtest champion, and côte de bœuf grillmaster. Explore my blog, projects, and professional journey.
 ---
 
