@@ -1,8 +1,8 @@
 baseURL = "https://nathan.swiss/"
 languageCode = "en-US"
-theme = "hugo-winston-theme"
+theme = "hugo-white-paper-theme"
 themesDir = "themes"
-title = "Nathan Buache"
+title = "n.b."
 [pagination]
   pagerSize = 10
 pygmentsCodeFences = true
@@ -25,18 +25,17 @@ pygmentsUseClasses = true
   limitPostsOnHomepage = 1 # only used if usePaginationOnHomepage is false
   sortPostsByDateOldestFirst = false
   addDot = true
-  addFrame = true
-  highlightColor = '#5096EE'
-  baseColor = "#ffffff"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#5096EE"
-  textColor = "#000000"
-  dotColor = "#faaa33"
+  highlightColor = '#000000'
+  baseColor = "#fdfbff"
+  baseOffsetColor = "#f7f2fa"
+  headingColor = "#1c1b1f"
+  textColor = "#49454f"
+  dotColor = "#000000"
   enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=UnifrakturCook:wght@700&display=swap"
+  fontFamilyHeading = "UnifrakturCook"
+  fontFamilyParagraph = "Inter"
+  fontFamilyMonospace = "Inter"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
@@ -62,3 +61,8 @@ pygmentsUseClasses = true
     identifier = "about"
     weight = 3
     url = "/about/"
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 4
+    url = "/projects/"

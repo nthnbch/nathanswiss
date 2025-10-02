@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://nathan.swiss/</loc>
-    <lastmod>2025-08-12T09:00:00+01:00</lastmod>
+    <lastmod>2025-10-02T15:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nathan.swiss/posts/new-design/</loc>
+    <lastmod>2025-10-02T15:20:00+02:00</lastmod>
   </url><url>
     <loc>https://nathan.swiss/posts/zen-folders/</loc>
     <lastmod>2025-08-12T09:00:00+01:00</lastmod>
@@ -44,6 +47,8 @@
     <loc>https://nathan.swiss/about/</loc>
   </url><url>
     <loc>https://nathan.swiss/categories/</loc>
+  </url><url>
+    <loc>https://nathan.swiss/projects/</loc>
   </url><url>
     <loc>https://nathan.swiss/pages/</loc>
   </url><url>

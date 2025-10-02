@@ -1,10 +1,8 @@
 ---
-title: Nathan
-description: 
-
+title: nathan buache
+description: Test Manager based in Lausanne, Switzerland. QA specialist, blindtest champion, and côte de bœuf grillmaster. Explore my blog, projects, and professional journey.
 ---
 
-Helvetic rider, *heraldry enthusiast*, **Test Manager** by day, blindtest king by night.  
-Part-time *geek*, **full-time dad** and proud **côte de bœuf grillmaster**.
+Test Manager by day, blindtest champion by night, officially certified côte de bœuf grillmaster.
 
-Here you'll find my social links, a short [bio](https://nathan.swiss/about), and a few [thoughts](https://nathan.swiss/posts) I’ve shared along the way.
+Here you'll find my social links, a short [bio](https://nathan.swiss/about), a few [thoughts](https://nathan.swiss/posts) I've shared along the way and some of my [projects](https://nathan.swiss/projects).

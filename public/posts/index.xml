@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Nathan Buache</title>
+    <title>blog on n.b.</title>
     <link>https://nathan.swiss/posts/</link>
-    <description>Recent content in Blog on Nathan Buache</description>
+    <description>Recent content in blog on n.b.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Aug 2025 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 15:20:00 +0200</lastBuildDate>
     <atom:link href="https://nathan.swiss/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Design, New Font, I Did It Again</title>
+      <link>https://nathan.swiss/posts/new-design/</link>
+      <pubDate>Thu, 02 Oct 2025 15:20:00 +0200</pubDate>
+      <guid>https://nathan.swiss/posts/new-design/</guid>
+      <description>&lt;p&gt;I redesigned my website. Again.&lt;/p&gt;&#xA;&lt;p&gt;This time, I went all in on typography. The star of the show? &lt;strong&gt;Fraktur&lt;/strong&gt;—specifically UnifrakturCook—a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that&amp;rsquo;s both traditional and modern.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-design-system&#34;&gt;The Design System&lt;/h2&gt;&#xA;&lt;p&gt;Built on Material Design 3 principles, the site uses CSS custom properties for colors and maintains a clean, minimal aesthetic. Black (&lt;code&gt;#000000&lt;/code&gt;) replaced the previous violet scheme, giving everything a sharper, more focused appearance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rethinking Web Browsing in 2025: Beyond Traditional Browsers</title>
       <link>https://nathan.swiss/posts/zen-folders/</link>

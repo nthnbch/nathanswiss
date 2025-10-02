@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nathan on Nathan Buache</title>
+    <title>nathan buache.</title>
     <link>https://nathan.swiss/</link>
-    <description>Recent content in Nathan on Nathan Buache</description>
+    <description>Recent content in nathan buache on n.b.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Aug 2025 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 15:20:00 +0200</lastBuildDate>
     <atom:link href="https://nathan.swiss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Design, New Font, I Did It Again</title>
+      <link>https://nathan.swiss/posts/new-design/</link>
+      <pubDate>Thu, 02 Oct 2025 15:20:00 +0200</pubDate>
+      <guid>https://nathan.swiss/posts/new-design/</guid>
+      <description>&lt;p&gt;I redesigned my website. Again.&lt;/p&gt;&#xA;&lt;p&gt;This time, I went all in on typography. The star of the show? &lt;strong&gt;Fraktur&lt;/strong&gt;—specifically UnifrakturCook—a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that&amp;rsquo;s both traditional and modern.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-design-system&#34;&gt;The Design System&lt;/h2&gt;&#xA;&lt;p&gt;Built on Material Design 3 principles, the site uses CSS custom properties for colors and maintains a clean, minimal aesthetic. Black (&lt;code&gt;#000000&lt;/code&gt;) replaced the previous violet scheme, giving everything a sharper, more focused appearance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rethinking Web Browsing in 2025: Beyond Traditional Browsers</title>
       <link>https://nathan.swiss/posts/zen-folders/</link>
@@ -86,11 +93,18 @@
       <description>&lt;p&gt;Although nowadays, careers related to computer science are highly sought after, I must admit that it was not at all my initial ambition. Yet, the winding path that led me to become a software tester is a beautiful testament to the power of curiosity and perseverance.&lt;/p&gt;&#xA;&lt;p&gt;From a very young age, I have always been a passionate and curious child about everything. Each new toy quickly became an object of thorough investigation. I wanted to understand how it worked, what were its mechanisms. Very often, my parents would find me in the middle of disassembled pieces, which I rarely put back together, by the way.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About</title>
+      <title>about</title>
       <link>https://nathan.swiss/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nathan.swiss/about/</guid>
-      <description>&lt;p&gt;Based in Lausanne, I work as a &lt;strong&gt;Test Manager&lt;/strong&gt;, making sure websites and applications work exactly as they should.&lt;br&gt;&#xA;With over 8 years of experience in QA, I’m known for being open-minded, and just the right amount of crazy.&lt;/p&gt;&#xA;&lt;p&gt;Originally trained in IT management, I turned my passion into my profession:&lt;br&gt;&#xA;I love what I do, and I do what I love.&lt;/p&gt;&#xA;&lt;p&gt;I had the opportunity to build the &lt;strong&gt;Quality Assurance department from the ground up&lt;/strong&gt; at QoQa.ch, shaping both processes and mindset.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Based in Lausanne, I’m a Test Manager with 8+ years in QA, ensuring websites and apps truly work.&lt;br&gt;&#xA;I &lt;strong&gt;built the QA department at QoQa.ch from scratch&lt;/strong&gt;, shaping processes and mindset.&lt;/p&gt;&#xA;&lt;p&gt;Testing is about curiosity, common sense, and collaboration. Most of what I know, I learned hands-on, working with devs and stakeholders &lt;strong&gt;having quality in mind&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Outside work, I read compulsively, ride my bike, enjoy good food, hazy beers, and great conversations. Whatever I do, I aim to make things a little better every day.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>my side projects</title>
+      <link>https://nathan.swiss/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathan.swiss/projects/</guid>
+      <description>&lt;h2 id=&#34;hugo-white-paper-theme&#34;&gt;Hugo White Paper Theme&lt;/h2&gt;&#xA;&lt;p&gt;A clean, modern Hugo theme featuring Fraktur typography and Material Design 3 principles. Open source and available for anyone to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;GitHub:&lt;/em&gt; &lt;a href=&#34;https://github.com/nthnbch/hugo-white-paper-theme&#34;&gt;nthnbch/hugo-white-paper-theme&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;quote-of-the-day&#34;&gt;Quote of the Day&lt;/h2&gt;&#xA;&lt;p&gt;A minimalist website delivering daily inspirational quotes. Simple, clean, and focused on content.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Website:&lt;/em&gt; &lt;a href=&#34;https://qotd.ch&#34;&gt;qotd.ch&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;dotlife&#34;&gt;dotlife&lt;/h2&gt;&#xA;&lt;p&gt;A visual representation of your life as a progression bar. A memento mori reminder to make the most of every day.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;GitHub:&lt;/em&gt; &lt;a href=&#34;https://github.com/nthnbch/dotlife&#34;&gt;nthnbch/dotlife&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;zenlink&#34;&gt;Zenlink&lt;/h2&gt;&#xA;&lt;p&gt;A macOS app to help keep URLs less tracked by removing tracking parameters and cleaning links before sharing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
