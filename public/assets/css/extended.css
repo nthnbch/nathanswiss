@@ -15,15 +15,6 @@
 .summary .summary-title a:hover,
 .summary-title a:hover {
   text-decoration: none !important;
-}
-
-/* Hide all pagination elements completely */
-.pagination,
-.paginator,
-.pagination-item,
-.pagination-link,
-.view-more {
-  display: none !important;
 }.custom {
     background: red;
 }
