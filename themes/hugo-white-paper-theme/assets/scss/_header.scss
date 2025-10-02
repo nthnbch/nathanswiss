@@ -12,13 +12,17 @@
   }
   a.header-logo {
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-right: 24px;
     color: var(--on-surface);
     letter-spacing: 0.5px;
+    font-family: 'UnifrakturCook', serif;
+    font-size: 33px;
+    text-decoration: none;
     transition: color 0.2s ease;
     &:hover {
       color: var(--primary);
+      text-decoration: none;
     }
   }
 }

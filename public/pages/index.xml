@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Nathan Buache</title>
+    <title>Pages on n.b.</title>
     <link>http://localhost:1313/pages/</link>
-    <description>Recent content in Pages on Nathan Buache</description>
+    <description>Recent content in Pages on n.b.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Based in Lausanne, I work as a &lt;strong&gt;Test Manager&lt;/strong&gt;, making sure websites and applications work as they should.&lt;br&gt;&#xA;With 8+ years of experience in QA, I’m known for being open-minded, and just the right amount of crazy.&lt;/p&gt;&#xA;&lt;p&gt;Originally trained in IT management, I turned my passion into my profession:&lt;br&gt;&#xA;I love what I do, and I do what I love.&lt;/p&gt;&#xA;&lt;p&gt;I had the opportunity to build the &lt;strong&gt;Quality Assurance department from the ground up&lt;/strong&gt; at QoQa.ch, shaping both processes and mindset.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Based in Lausanne, I’m a Test Manager with 8+ years in QA, ensuring websites and apps truly work.&lt;br&gt;&#xA;I &lt;strong&gt;built the QA department at QoQa.ch from scratch&lt;/strong&gt;, shaping processes and mindset.&lt;/p&gt;&#xA;&lt;p&gt;Testing is about curiosity, common sense, and collaboration. Most of what I know, I learned hands-on, working with devs and stakeholders &lt;strong&gt;having quality in mind&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Outside work, I read compulsively, ride my bike, enjoy good food, hazy beers, and great conversations. Whatever I do, I aim to make things a little better every day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>my little projects</title>

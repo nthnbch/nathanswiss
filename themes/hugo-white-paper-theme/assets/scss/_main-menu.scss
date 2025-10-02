@@ -2,6 +2,7 @@
 .menu-main {
   display: none;
   flex: 0;
+  font-family: 'Inter', sans-serif;
   @include breakpoint('medium') {
     display: block;
   }
