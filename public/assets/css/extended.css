@@ -1,3 +1,29 @@
-.custom {
+/* Custom CSS overrides */
+
+/* Make post titles bold in the posts list */
+.summary-title {
+  font-weight: 700 !important; /* Bold instead of 500 */
+}
+
+/* Remove underline from post title links - more specific selector */
+.summary .summary-title a,
+.summary-title a {
+  text-decoration: none !important;
+}
+
+/* Also remove underline on hover */
+.summary .summary-title a:hover,
+.summary-title a:hover {
+  text-decoration: none !important;
+}
+
+/* Hide all pagination elements completely */
+.pagination,
+.paginator,
+.pagination-item,
+.pagination-link,
+.view-more {
+  display: none !important;
+}.custom {
     background: red;
 }

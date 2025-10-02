@@ -3,8 +3,6 @@ languageCode = "en-US"
 theme = "hugo-white-paper-theme"
 themesDir = "themes"
 title = "nathan.swiss"
-[pagination]
-  pagerSize = 10
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
