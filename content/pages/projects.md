@@ -5,6 +5,11 @@ description: Portfolio of Nathan Buache's projects including QoQa Beta, Zenlink,
 ---
 
 
+## Hugo White Paper Theme
+A clean, modern Hugo theme featuring Fraktur typography and Material Design 3 principles. Open source and available for anyone to use.
+
+*GitHub:* [nthnbch/hugo-white-paper-theme](https://github.com/nthnbch/hugo-white-paper-theme)
+
 ## Quote of the Day
 A minimalist website delivering daily inspirational quotes. Simple, clean, and focused on content.
 
