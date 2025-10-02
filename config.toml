@@ -2,7 +2,7 @@ baseURL = "https://nathan.swiss/"
 languageCode = "en-US"
 theme = "hugo-white-paper-theme"
 themesDir = "themes"
-title = "n.b."
+title = "nathan.swiss"
 [pagination]
   pagerSize = 10
 pygmentsCodeFences = true
@@ -18,7 +18,7 @@ pygmentsUseClasses = true
   google_analytics_id = "G-FFR91K2J2Y"
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
-  homePageSubtitle = "Nathan Buache - Test Manager/QA Specialist in Lausanne Swiss"
+  homePageSubtitle = "Nathan Buache - Test Manager - QA Specialist in Lausanne Swiss"
   # Typography and Design
   highlightColor = '#000000'
   baseColor = "#fdfbff"

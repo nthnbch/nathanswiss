@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on n.b.</title>
+    <title>Pages on nathan.swiss</title>
     <link>https://nathan.swiss/pages/</link>
-    <description>Recent content in Pages on n.b.</description>
+    <description>Recent content in Pages on nathan.swiss</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="https://nathan.swiss/pages/index.xml" rel="self" type="application/rss+xml" />
