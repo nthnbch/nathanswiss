@@ -5,7 +5,7 @@ description: "A short history of the Fraktur typeface"
 draft: false
 ---
 
-Fraktur: The Typeface That Refuses to Be Forgotten
+### Fraktur: The Typeface That Refuses to Be Forgotten ###
 
 If there’s a font that instantly sparks a reaction, it’s <span class="fraktur-word">Fraktur</span>. Bold, sharp, ornate, and unapologetically dramatic, it has been both celebrated and misunderstood. Too often people reduce it to a dark historical chapter, forgetting that Fraktur is far older, richer, and more deeply rooted in European culture than any 20th-century appropriation.
 

@@ -22,3 +22,34 @@
   font-family: 'UnifrakturCook', serif !important;
   font-weight: 700 !important;
 }
+
+.header-logo {
+  color: transparent !important;
+  font-size: 0 !important;
+  position: relative;
+  display: inline-block;
+}
+
+.header-logo:before {
+  content: "nathan";
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--on-surface);
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header-logo:after {
+  content: ".swiss";
+  font-family: 'UnifrakturCook', serif !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--on-surface);
+  text-decoration: none;
+  position: absolute;
+  left: 3.4em; /* Reduced gap - position closer to "nathan" */
+  top: 0;
+}
