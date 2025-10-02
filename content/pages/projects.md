@@ -1,50 +1,29 @@
 ---
-title: 'my little projects'
+title: 'my side projects'
 url: "/projects/"
-description: Portfolio of Nathan Buache's projects including QoQa Platform, testing frameworks, and web development experiments. Explore current and past work.
+description: Portfolio of Nathan Buache's projects including QoQa Beta, Zenlink, and various web experiments. Explore current and past work.
 ---
 
-Here are some of the projects I'm currently working on or have worked on recently. These are my little experiments, side projects, and things that keep me learning and growing.
 
-## 🚀 Current Projects
+## Quote of the Day
+A minimalist website delivering daily inspirational quotes. Simple, clean, and focused on content.
 
-### QoQa Platform
-**Status:** Active Development  
-A comprehensive quality assurance platform that helps teams manage testing workflows, track bugs, and ensure product quality. Built with modern web technologies and a focus on user experience.
+*Website:* [qotd.ch](https://qotd.ch)  
 
-*Technologies:* React, Node.js, PostgreSQL, Docker
+## dotlife
+A visual representation of your life as a progression bar. A memento mori reminder to make the most of every day.
+ 
+*GitHub:* [nthnbch/dotlife](https://github.com/nthnbch/dotlife)
 
-### Personal Blog & Portfolio
-**Status:** Ongoing  
-This very website! A minimalist blog built with Hugo and styled with Material You design principles. Focus on clean typography, fast loading, and great readability.
+## Zenlink
+A macOS app to help keep URLs less tracked by removing tracking parameters and cleaning links before sharing.
 
-*Technologies:* Hugo, SCSS, Material Design
+*GitHub:* [nthnbch/zenlink](https://github.com/nthnbch/zenlink)
 
-### Testing Automation Framework
-**Status:** Research Phase  
-Exploring automated testing solutions for web applications. Currently evaluating different tools and frameworks to create a robust testing pipeline.
+## FFTabClose
+Firefox extension that automatically closes tabs based on custom rules. Helps maintain a clean and organized browsing experience.
 
-*Technologies:* Playwright, Cypress, Jest
+*GitHub:* [nthnbch/FFTabClose](https://github.com/nthnbch/FFTabClose)
 
-## 🔧 Tools & Experiments
-
-### CLI Tools
-Small command-line utilities I build for personal use and learning. From simple file organizers to productivity helpers.
-
-### API Explorers
-REST API testing tools and documentation generators. Making API testing more visual and intuitive.
-
-### Design Systems
-Experimenting with design tokens, component libraries, and consistent UI patterns across different projects.
-
-## 📚 Learning Projects
-
-### Web Performance Optimization
-A collection of techniques and tools for improving website performance. From lazy loading to critical CSS extraction.
-
-### Accessibility First
-Building inclusive web experiences. Learning about WCAG guidelines, screen readers, and accessible design patterns.
-
----
-
-*This page is constantly evolving as I work on new things. Check back often for updates!*
+## QoQa Beta (past)
+Creator and manager of [QoQa Beta](https://www.qoqa.ch/fr/posts/5369), a community of 800+ beta testers helping improve QoQa's products and services.

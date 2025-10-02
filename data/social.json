@@ -16,6 +16,11 @@
       "url": "https://open.spotify.com/user/jo_margo?si=43630b796d6a462a",
       "image": "images/social/spotify.svg"
     },
+    {
+      "name": "QoQa",
+      "url": "https://www.qoqa.ch/fr/posts/5275",
+      "image": "images/social/qoqa.svg"
+    },
      {
       "name": "Mail",
       "url": "mailto:info@nathan.swiss",
@@ -25,11 +30,6 @@
       "name": "Distinguished Gentlemen's Ride",
       "url": "https://gfolk.me/nthnbch",
       "image": "images/social/dgr.png"
-    },
-     {
-      "name": "QoQa",
-      "url": "https://www.qoqa.ch/fr/posts/5275",
-      "image": "images/social/qoqa.svg"
     }
   ]
 }
