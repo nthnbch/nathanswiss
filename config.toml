@@ -18,9 +18,7 @@ pygmentsUseClasses = true
   google_analytics_id = "G-FFR91K2J2Y"
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 1 # only used if usePaginationOnHomepage is false
-  sortPostsByDateOldestFirst = false
+  homePageSubtitle = "Nathan Buache - Test Manager/QA Specialist in Lausanne Swiss"
   # Typography and Design
   highlightColor = '#000000'
   baseColor = "#fdfbff"
