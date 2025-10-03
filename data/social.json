@@ -3,22 +3,22 @@
   [
     {
       "name": "Github",
-      "url": "https://github.com/nthnbch",
+      "url": "https://github.com/nthnbch?utm_source=nathan.swiss",
       "image": "images/social/github.svg"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/nathanbuache/",
+      "url": "https://www.linkedin.com/in/nathanbuache/?utm_source=nathan.swiss",
       "image": "images/social/linkedin.svg"
     },
    {
       "name": "Spotify",
-      "url": "https://open.spotify.com/user/jo_margo?si=43630b796d6a462a",
+      "url": "https://open.spotify.com/user/jo_margo?si=43630b796d6a462a&utm_source=nathan.swiss",
       "image": "images/social/spotify.svg"
     },
     {
       "name": "QoQa",
-      "url": "https://www.qoqa.ch/fr/posts/5275",
+      "url": "https://www.qoqa.ch/fr/posts/5275?utm_source=nathan.swiss",
       "image": "images/social/qoqa.svg"
     },
      {
@@ -28,7 +28,7 @@
     },
      {
       "name": "Distinguished Gentlemen's Ride",
-      "url": "https://gfolk.me/nthnbch",
+      "url": "https://gfolk.me/nthnbch?utm_source=nathan.swiss",
       "image": "images/social/dgr.png"
     }
   ]
