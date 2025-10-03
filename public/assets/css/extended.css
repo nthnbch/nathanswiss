@@ -1,23 +1,18 @@
-/* Custom CSS overrides */
-
-/* Make post titles bold in the posts list */
 .summary-title {
-  font-weight: 700 !important; /* Bold instead of 500 */
+  font-weight: 700 !important;
 }
 
-/* Remove underline from post title links - more specific selector */
 .summary .summary-title a,
 .summary-title a {
   text-decoration: none !important;
 }
 
-/* Also remove underline on hover */
 .summary .summary-title a:hover,
 .summary-title a:hover {
   text-decoration: none !important;
 }
 
-/* Use Fraktur font for specific class */
+/* Fraktur font for selective words */
 .fraktur-word {
   font-family: 'UnifrakturCook', serif !important;
   font-weight: 700 !important;
@@ -28,8 +23,8 @@
   font-size: 0 !important;
   position: relative;
   display: inline-block;
-  width: 8em; /* Fixed width to maintain layout space */
-  height: 1.5rem; /* Fixed height for proper alignment */
+  width: 8em;
+  height: 1.5rem;
 }
 
 .header-logo:before {
@@ -48,11 +43,11 @@
   content: ".swiss";
   font-family: 'UnifrakturCook', serif !important;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--on-surface);
   text-decoration: none;
   position: absolute;
-  left: 3.4em; /* Reduced gap - position closer to "nathan" */
+  left: 3.2em;
   top: 0;
 }.custom {
     background: red;
