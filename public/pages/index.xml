@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on nathan.swiss</title>
+    <title>Pages on Nathan Buache</title>
     <link>https://nathan.swiss/pages/</link>
-    <description>Recent content in Pages on nathan.swiss</description>
+    <description>Recent content in Pages on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="https://nathan.swiss/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>about.</title>
-      <link>https://nathan.swiss/about/</link>
+      <title>info.</title>
+      <link>https://nathan.swiss/info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nathan.swiss/about/</guid>
+      <guid>https://nathan.swiss/info/</guid>
       <description>&lt;p&gt;Based in Lausanne, I’m a Test Manager with 8+ years in QA, ensuring websites and apps truly work.&lt;br&gt;&#xA;I &lt;strong&gt;built the QA department at QoQa.ch from scratch&lt;/strong&gt;, shaping processes and mindset.&lt;/p&gt;&#xA;&lt;p&gt;Testing is about curiosity, common sense, and collaboration. Most of what I know, I learned hands-on, working with devs and stakeholders &lt;strong&gt;having quality in mind&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Outside work, I read compulsively, ride my bike, enjoy good food, hazy beers, and great conversations. Whatever I do, I aim to make things a little better every day.&lt;/p&gt;</description>
     </item>
     <item>

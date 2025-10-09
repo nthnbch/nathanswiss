@@ -1,6 +1,6 @@
 ---
-title: 'about.'
-url: "/about/"
+title: 'info.'
+url: "/info/"
 description: Nathan Buache is a Test Manager based in Lausanne with 8+ years of QA experience. Learn about his professional journey and approach to quality assurance.
 ---
 
