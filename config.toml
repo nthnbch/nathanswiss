@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term"]
   google_analytics_id = "G-FFR91K2J2Y"
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
-  homePageSubtitle = "Nathan Buache - Test Manager - QA Specialist in Lausanne Swiss"
+  homePageSubtitle = "Test Manager - QA Specialist in Lausanne Swiss"
   # Typography and Design
   highlightColor = '#000000'
   baseColor = "#fdfbff"
