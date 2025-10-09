@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Nathan Buache</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>https://nathan.swiss/pages/</link>
     <description>Recent content in Pages on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nathan.swiss/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>info.</title>
-      <link>http://localhost:1313/info/</link>
+      <link>https://nathan.swiss/info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/</guid>
+      <guid>https://nathan.swiss/info/</guid>
       <description>&lt;p&gt;Based in Lausanne, I’m a Test Manager with 8+ years in QA, ensuring websites and apps truly work.&lt;br&gt;&#xA;I &lt;strong&gt;built the QA department at QoQa.ch from scratch&lt;/strong&gt;, shaping processes and mindset.&lt;/p&gt;&#xA;&lt;p&gt;Testing is about curiosity, common sense, and collaboration. Most of what I know, I learned hands-on, working with devs and stakeholders &lt;strong&gt;having quality in mind&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Outside work, I read compulsively, ride my bike, enjoy good food, hazy beers, and great conversations. Whatever I do, I aim to make things a little better every day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>sideprojects.</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://nathan.swiss/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://nathan.swiss/projects/</guid>
       <description>&lt;h2 id=&#34;hugo-white-paper-theme&#34;&gt;Hugo White Paper Theme&lt;/h2&gt;&#xA;&lt;p&gt;A clean, modern Hugo theme featuring Fraktur typography and Material Design 3 principles. Open source and available for anyone to use.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;GitHub:&lt;/em&gt; &lt;a href=&#34;https://github.com/nthnbch/hugo-white-paper-theme&#34;&gt;nthnbch/hugo-white-paper-theme&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;quote-of-the-day&#34;&gt;Quote of the Day&lt;/h2&gt;&#xA;&lt;p&gt;A minimalist website delivering daily inspirational quotes. Simple, clean, and focused on content.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Website:&lt;/em&gt; &lt;a href=&#34;https://qotd.ch&#34;&gt;qotd.ch&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;dotlife&#34;&gt;dotlife&lt;/h2&gt;&#xA;&lt;p&gt;A visual representation of your life as a progression bar. A memento mori reminder to make the most of every day.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;GitHub:&lt;/em&gt; &lt;a href=&#34;https://github.com/nthnbch/dotlife&#34;&gt;nthnbch/dotlife&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;zenlink&#34;&gt;Zenlink&lt;/h2&gt;&#xA;&lt;p&gt;A macOS app to help keep URLs less tracked by removing tracking parameters and cleaning links before sharing.&lt;/p&gt;</description>
     </item>
   </channel>
