@@ -33,7 +33,10 @@
   --shadow-ambient-shadow-opacity: 0.12;
   --border-radius: 12px;
   --border-radius-large: 16px;
-  --border-radius-small: 8px; }
+  --border-radius-small: 8px;
+  /* Mobile menu compatibility variables */
+  --highlight-color: var(--primary);
+  --base-color: var(--on-primary); }
 
 .elevation-0 {
   box-shadow: none; }
@@ -438,7 +441,8 @@ ul {
 
 .menu-main-mobile {
   position: fixed;
-  background: var(--highlight-color);
+  background: var(--surface);
+  backdrop-filter: blur(10px);
   top: 0;
   left: 0;
   width: 100%;
@@ -471,19 +475,27 @@ ul {
         animation-delay: 0.35s; }
   .menu-main-mobile ul {
     font-size: 2rem;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-family-heading);
     text-align: center;
     list-style: none;
     margin: 0;
+    padding: 2rem 0;
     flex: 0; }
     .menu-main-mobile ul li {
       display: block;
       position: relative;
-      opacity: 0; }
+      opacity: 0;
+      margin: 1.2rem 0;
+      padding: 0.5rem 0; }
       .menu-main-mobile ul li a {
         display: block;
         position: relative;
-        color: var(--base-color);
+        color: var(--on-surface);
+        font-family: var(--font-family-heading);
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding: 1rem 2rem;
+        line-height: 1.2;
         text-decoration: none; }
         .menu-main-mobile ul li a:hover {
           opacity: 0.7; }

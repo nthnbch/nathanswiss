@@ -49,6 +49,41 @@
   position: absolute;
   left: 3.2em;
   top: 0;
+}
+
+/* Add missing CSS variables for mobile menu */
+:root {
+  --highlight-color: var(--primary);
+  --base-color: var(--on-primary);
+}
+
+/* Fix mobile menu background visibility */
+.menu-main-mobile {
+  background: var(--surface) !important;
+  backdrop-filter: blur(10px);
+}
+
+.menu-main-mobile ul li {
+  margin: 1.2rem 0 !important;
+  padding: 0.5rem 0 !important;
+}
+
+.menu-main-mobile ul li a {
+  color: var(--on-surface) !important;
+  font-family: 'UnifrakturCook', serif !important;
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  padding: 1rem 2rem !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.menu-main-mobile ul {
+  padding: 2rem 0 !important;
+}
+
+.menu-main-mobile.open {
+  background: var(--surface) !important;
 }.custom {
     background: red;
 }
