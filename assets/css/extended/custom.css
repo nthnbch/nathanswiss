@@ -63,8 +63,22 @@
   backdrop-filter: blur(10px);
 }
 
+.menu-main-mobile ul li {
+  margin: 2rem 0 !important;
+  padding: 0.5rem 0 !important;
+}
+
 .menu-main-mobile ul li a {
   color: var(--on-surface) !important;
+  font-family: 'UnifrakturCook', serif !important;
+  font-weight: 700 !important;
+  padding: 1rem 2rem !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.menu-main-mobile ul {
+  padding: 2rem 0 !important;
 }
 
 .menu-main-mobile.open {
