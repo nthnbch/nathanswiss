@@ -49,6 +49,26 @@
   position: absolute;
   left: 3.2em;
   top: 0;
+}
+
+/* Add missing CSS variables for mobile menu */
+:root {
+  --highlight-color: var(--primary);
+  --base-color: var(--on-primary);
+}
+
+/* Fix mobile menu background visibility */
+.menu-main-mobile {
+  background: var(--surface) !important;
+  backdrop-filter: blur(10px);
+}
+
+.menu-main-mobile ul li a {
+  color: var(--on-surface) !important;
+}
+
+.menu-main-mobile.open {
+  background: var(--surface) !important;
 }.custom {
     background: red;
 }
