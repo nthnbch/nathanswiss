@@ -11,7 +11,7 @@ If there’s a font that instantly sparks a reaction, it’s <span class="fraktu
 
 ### A Short History of Fraktur ###
 
-Fraktur emerged in the early 16th century in Germany, during the reign of Emperor Maximilian I. It quickly became the dominant script for books, official documents, and cultural works across the German-speaking world. For centuries, Goethe, Luther, and countless publishers used Fraktur. To call it "Nazi" is simply inaccurate - it's a typeface that predates modern ideologies by hundreds of years.
+Fraktur emerged in the early 16th century in Germany, during the reign of Emperor Maximilian I. It quickly became the dominant script for books, official documents, and cultural works across the German-speaking world. For centuries, Goethe, Luther, and countless publishers used Fraktur. To call it "Nazi" is simply inaccurate: it's a typeface that predates modern ideologies by hundreds of years.
 
 Ironically, the Nazi regime itself eventually **banned Fraktur in 1941**, labeling it “Jewish letters.” So the very people who are often wrongly associated with it actually rejected it. If anything, this underlines how misplaced the stigma truly is.
 
