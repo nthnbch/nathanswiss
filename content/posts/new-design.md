@@ -7,13 +7,13 @@ description: "Complete redesign of nathan.swiss with Fraktur typography, Materia
 
 I redesigned my website. Again.
 
-This time, I went all in on typography. The star of the show? **Fraktur**—specifically UnifrakturCook—a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that's both traditional and modern.
+This time, I went all in on typography. The star of the show? **Fraktur** - specifically UnifrakturCook - a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that's both traditional and modern.
 
 ## The Design System
 
 Built on Material Design 3 principles, the site uses CSS custom properties for colors and maintains a clean, minimal aesthetic. Black (`#000000`) replaced the previous violet scheme, giving everything a sharper, more focused appearance.
 
-The logo transformed into a simple "nb." in Fraktur, lowercase, 28px—understated but memorable.
+The logo transformed into a simple "nb." in Fraktur, lowercase, 28px - understated but memorable.
 
 ## SEO & Performance
 
@@ -48,12 +48,12 @@ The redesign touched every part of the site:
 - Repository cleanup
 - Theme extraction and publication
 
-It took several iterations to get the font hierarchy right—making sure h2 and h3 used Inter instead of Fraktur to maintain readability in content while keeping the distinctive Fraktur for main titles.
+It took several iterations to get the font hierarchy right - making sure h2 and h3 used Inter instead of Fraktur to maintain readability in content while keeping the distinctive Fraktur for main titles.
 
 ## Why Redesign Again?
 
 Because I can. Because design is never finished. Because I learned a ton about Hugo theme development, git submodules, and typography in the process.
 
-The site reflects my taste better now—minimal, typographically focused, technically solid. And by open-sourcing the theme, maybe it helps someone else build something cool.
+The site reflects my taste better now - minimal, typographically focused, technically solid. And by open-sourcing the theme, maybe it helps someone else build something cool.
 
 Check it out: [github.com/nthnbch/hugo-white-paper-theme](https://github.com/nthnbch/hugo-white-paper-theme)

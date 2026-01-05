@@ -11,7 +11,7 @@ If there’s a font that instantly sparks a reaction, it’s <span class="fraktu
 
 ### A Short History of Fraktur ###
 
-Fraktur emerged in the early 16th century in Germany, during the reign of Emperor Maximilian I. It quickly became the dominant script for books, official documents, and cultural works across the German-speaking world. For centuries, Goethe, Luther, and countless publishers used Fraktur. To call it “Nazi” is simply inaccurate—it’s a typeface that predates modern ideologies by hundreds of years.
+Fraktur emerged in the early 16th century in Germany, during the reign of Emperor Maximilian I. It quickly became the dominant script for books, official documents, and cultural works across the German-speaking world. For centuries, Goethe, Luther, and countless publishers used Fraktur. To call it "Nazi" is simply inaccurate - it's a typeface that predates modern ideologies by hundreds of years.
 
 Ironically, the Nazi regime itself eventually **banned Fraktur in 1941**, labeling it “Jewish letters.” So the very people who are often wrongly associated with it actually rejected it. If anything, this underlines how misplaced the stigma truly is.
 
@@ -45,7 +45,7 @@ For me, it strikes a balance between elegance and raw force. Yes, it’s ornate,
 
 Design is often about cycles. Right now, minimalism rules the mainstream, but tastes change. As we look back, Fraktur invites us to reconsider what “presence” means in typography. Not every font has to be polite. Sometimes it’s good to let the letters shout.
 
-On my own site, I even experimented with Fraktur in a surprisingly minimalist way, making it interact with modern typefaces like Inter. The contrast is striking: Fraktur’s historic depth meets Inter’s clean efficiency, proving that even an old typeface can adapt to modern digital aesthetics. Personally, I rely on **UnifrakturCook**, since—unless I’m mistaken—it’s quite complex to find a truly faithful (and free) digital version of the original Fraktur.
+On my own site, I even experimented with Fraktur in a surprisingly minimalist way, making it interact with modern typefaces like Inter. The contrast is striking: Fraktur's historic depth meets Inter's clean efficiency, proving that even an old typeface can adapt to modern digital aesthetics. Personally, I rely on **UnifrakturCook**, since - unless I'm mistaken - it's quite complex to find a truly faithful (and free) digital version of the original Fraktur.
 
 For those who only see Fraktur through the lens of propaganda, it’s worth remembering: this is a script of poets and thinkers, not just politicians. To appreciate Fraktur is to embrace history in all its depth, not to flatten it into a caricature.
 
@@ -55,7 +55,7 @@ And honestly? Sometimes a little **boldness**, a little gothic flair, is exactly
 
 ### Sources and Further Reading
 - [Lenkerhof: The Good Things Are So Close](https://travelita-blog.com/lenkerhof-the-good-things-are-so-close)  
-- [The Rise and Fall and Return of the Fraktur Font — The New Yorker](https://www.newyorker.com/culture/culture-desk/the-rise-and-fall-and-return-of-the-fraktur-font)  
-- [History of Fraktur — Walden Font](https://www.waldenfont.com/HistoryofFraktur.asp)  
-- [Fraktur — Wikipedia](https://en.wikipedia.org/wiki/Fraktur)  
-- [Antiqua–Fraktur Dispute — Wikipedia](https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute)  
+- [The Rise and Fall and Return of the Fraktur Font - The New Yorker](https://www.newyorker.com/culture/culture-desk/the-rise-and-fall-and-return-of-the-fraktur-font)  
+- [History of Fraktur - Walden Font](https://www.waldenfont.com/HistoryofFraktur.asp)  
+- [Fraktur - Wikipedia](https://en.wikipedia.org/wiki/Fraktur)  
+- [Antiqua-Fraktur Dispute - Wikipedia](https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute)  
