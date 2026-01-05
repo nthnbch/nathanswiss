@@ -20,7 +20,7 @@
       <link>https://nathan.swiss/posts/new-design/</link>
       <pubDate>Thu, 02 Oct 2025 15:20:00 +0200</pubDate>
       <guid>https://nathan.swiss/posts/new-design/</guid>
-      <description>&lt;p&gt;I redesigned my website. Again.&lt;/p&gt;&#xA;&lt;p&gt;This time, I went all in on typography. The star of the show? &lt;strong&gt;Fraktur&lt;/strong&gt; - specifically UnifrakturCook - a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that&amp;rsquo;s both traditional and modern.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-design-system&#34;&gt;The Design System&lt;/h2&gt;&#xA;&lt;p&gt;Built on Material Design 3 principles, the site uses CSS custom properties for colors and maintains a clean, minimal aesthetic. Black (&lt;code&gt;#000000&lt;/code&gt;) replaced the previous violet scheme, giving everything a sharper, more focused appearance.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I redesigned my website. Again.&lt;/p&gt;&#xA;&lt;p&gt;This time, I went all in on typography. The star of the show? &lt;strong&gt;Fraktur&lt;/strong&gt;, specifically UnifrakturCook, a gothic blackletter typeface that brings elegance and character to headings. Paired with Inter for body text, the contrast creates a distinctive look that&amp;rsquo;s both traditional and modern.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-design-system&#34;&gt;The Design System&lt;/h2&gt;&#xA;&lt;p&gt;Built on Material Design 3 principles, the site uses CSS custom properties for colors and maintains a clean, minimal aesthetic. Black (&lt;code&gt;#000000&lt;/code&gt;) replaced the previous violet scheme, giving everything a sharper, more focused appearance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rethinking Web Browsing in 2025: Beyond Traditional Browsers</title>
@@ -34,7 +34,7 @@
       <link>https://nathan.swiss/posts/change/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0200</pubDate>
       <guid>https://nathan.swiss/posts/change/</guid>
-      <description>&lt;p&gt;Some jobs are easy to leave. And then there are those where every day teaches you something, where the team is brilliant, funny, professional, where even barbecuing is part of the culture. Leaving that? Not so easy.&lt;/p&gt;&#xA;&lt;p&gt;I spent 7 incredible years at QoQa, learning, growing, failing, trying again - always with this wild freedom to explore, to break things (sometimes on purpose), and yes, to grill. I had the chance to work with truly talented people. I&amp;rsquo;m deeply grateful for that.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some jobs are easy to leave. And then there are those where every day teaches you something, where the team is brilliant, funny, professional, where even barbecuing is part of the culture. Leaving that? Not so easy.&lt;/p&gt;&#xA;&lt;p&gt;I spent 7 incredible years at QoQa, learning, growing, failing, trying again, always with this wild freedom to explore, to break things (sometimes on purpose), and yes, to grill. I had the chance to work with truly talented people. I&amp;rsquo;m deeply grateful for that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I&#39;m Leaving Arc: The Browser That Redefined My Web Experience (But Might Be Losing Its Way)</title>

@@ -45,7 +45,7 @@ For me, it strikes a balance between elegance and raw force. Yes, it’s ornate,
 
 Design is often about cycles. Right now, minimalism rules the mainstream, but tastes change. As we look back, Fraktur invites us to reconsider what “presence” means in typography. Not every font has to be polite. Sometimes it’s good to let the letters shout.
 
-On my own site, I even experimented with Fraktur in a surprisingly minimalist way, making it interact with modern typefaces like Inter. The contrast is striking: Fraktur's historic depth meets Inter's clean efficiency, proving that even an old typeface can adapt to modern digital aesthetics. Personally, I rely on **UnifrakturCook**, since - unless I'm mistaken - it's quite complex to find a truly faithful (and free) digital version of the original Fraktur.
+On my own site, I even experimented with Fraktur in a surprisingly minimalist way, making it interact with modern typefaces like Inter. The contrast is striking: Fraktur's historic depth meets Inter's clean efficiency, proving that even an old typeface can adapt to modern digital aesthetics. Personally, I rely on **UnifrakturCook**, since, unless I'm mistaken, it's quite complex to find a truly faithful (and free) digital version of the original Fraktur.
 
 For those who only see Fraktur through the lens of propaganda, it’s worth remembering: this is a script of poets and thinkers, not just politicians. To appreciate Fraktur is to embrace history in all its depth, not to flatten it into a caricature.
 
