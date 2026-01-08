@@ -1,6 +1,6 @@
 baseURL = "https://nathan.swiss/"
 languageCode = "en-US"
-theme = "hugo-white-paper-theme"
+theme = "hugo-fraktur-theme"
 themesDir = "themes"
 title = "Nathan Buache"
 pygmentsCodeFences = true
