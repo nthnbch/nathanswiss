@@ -56,4 +56,4 @@ Because I can. Because design is never finished. Because I learned a ton about H
 
 The site reflects my taste better now: minimal, typographically focused, technically solid. And by open-sourcing the theme, maybe it helps someone else build something cool.
 
-Check it out: [github.com/nthnbch/hugo-white-paper-theme](https://github.com/nthnbch/hugo-white-paper-theme)
+Check it out: [github.com/nthnbch/hugo-fraktur-theme](https://github.com/nthnbch/hugo-fraktur-theme)
