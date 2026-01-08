@@ -25,9 +25,9 @@ I went deep on SEO optimization:
 
 The site builds in under 20ms thanks to Hugo's speed, and the submodule structure keeps the theme separate and maintainable.
 
-## Hugo White Paper Theme
+## Hugo Fraktur Theme
 
-The best part? I packaged everything into a reusable Hugo theme. **Hugo White Paper** is now open source and available on GitHub.
+The best part? I packaged everything into a reusable Hugo theme. **Hugo Fraktur** is now open source and available on GitHub.
 
 Features:
 - Fraktur typography (UnifrakturCook) for headings
