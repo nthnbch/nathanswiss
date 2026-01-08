@@ -22,7 +22,7 @@ A minimalist website delivering daily inspirational quotes. Simple, clean, and f
 ## dotlife
 A visual representation of your life as a progression bar. A memento mori reminder to make the most of every day.
  
-*GitHub:* [nthnbch/dotlife](https://github.com/nthnbch/dotlife)
+*Demo:* [dotlife.nathan.swiss](https://dotlife.nathan.swiss)
 
 ---
 
