@@ -3,22 +3,22 @@
   [
     {
       "name": "Github",
-      "url": "https://github.com/nthnbch?utm_source=nathan.swiss",
+      "url": "https://github.com/nthnbch?source=nathan.swiss",
       "image": "images/social/github.svg"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/nathanbuache/?utm_source=nathan.swiss",
+      "url": "https://www.linkedin.com/in/nathanbuache/?source=nathan.swiss",
       "image": "images/social/linkedin.svg"
     },
     {
       "name": "QoQa",
-      "url": "https://www.qoqa.ch/fr/posts/5275?utm_source=nathan.swiss",
+      "url": "https://www.qoqa.ch/fr/posts/5275?source=nathan.swiss",
       "image": "images/social/qoqa.svg"
     },
      {
       "name": "Distinguished Gentlemen's Ride",
-      "url": "https://gfolk.me/nthnbch?utm_source=nathan.swiss",
+      "url": "https://gfolk.me/nthnbch?source=nathan.swiss",
       "image": "images/social/dgr.png"
     }
   ]
