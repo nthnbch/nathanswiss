@@ -30,6 +30,7 @@ jobs:
   pushover-actions:
     name: send pushover push
     runs-on: ubuntu-latest
+    needs: ftp-deploy
 
     steps:
       - uses: actions/checkout@v2
