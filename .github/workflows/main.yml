@@ -26,6 +26,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD_BU }}
           server-dir: /nathanswiss/
           local-dir: public/
+          dangerous-clean-slate: true
 
   pushover-actions:
     name: send pushover push
