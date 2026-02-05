@@ -15,11 +15,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Change to public directory
-        run: cd public
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build Hugo site
+        run: hugo --minify
 
       - name: Liste des fichiers dans le dossier public
-        run: ls -lR
+        run: ls -lR public/
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -28,6 +34,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME_BU }}
           password: ${{ secrets.FTP_PASSWORD_BU }}
           server-dir: /nathanswiss/
+          local-dir: public/
 
   pushover-actions:
     name: send pushover push

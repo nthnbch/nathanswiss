@@ -12,7 +12,7 @@ A few years ago, if someone had told me I'd become a die-hard GTD enthusiast, I 
 
 ## Adopting GTD: A Daily Challenge
 
-Implementing GTD is a bit like learning a new language. Each concept - whether it's "inboxes," "contexts," or "weekly reviews" - brings its own complexity, and my role is to ensure all these elements blend harmoniously into my daily life. It's not always easy, believe me.
+Implementing GTD is a bit like learning a new language. Each concept - whether it's "inboxes," "contexts," or "weekly reviews", brings its own complexity, and my role is to ensure all these elements blend harmoniously into my daily life. It's not always easy, believe me.
 
 One of the biggest challenges is maintaining the discipline needed to follow the system. This is where the magic of digital tools comes in. Why digital tools, you ask? Well, imagine a place where all your tasks, projects, and ideas can be captured, organized, and retrieved instantly. That's exactly what modern GTD apps offer us: a central point that transforms chaos into organized clarity.
 
