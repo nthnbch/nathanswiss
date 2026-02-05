@@ -27,7 +27,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER_BU }}
           username: ${{ secrets.FTP_USERNAME_BU }}
           password: ${{ secrets.FTP_PASSWORD_BU }}
-          server-dir: /nathanswiss/public
+          server-dir: /nathanswiss/public/
 
   pushover-actions:
     name: send pushover push
