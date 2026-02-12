@@ -6,8 +6,15 @@
     <description>Recent content in blog. on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Oct 2025 19:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://nathan.swiss/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide)</title>
+      <link>https://nathan.swiss/posts/arc-to-zen-export/</link>
+      <pubDate>Thu, 12 Feb 2026 10:00:00 +0100</pubDate>
+      <guid>https://nathan.swiss/posts/arc-to-zen-export/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Arc Browser is abandoned (or close to it). Here&amp;rsquo;s exactly how I exported all my tabs from Arc and imported them into Zen Browser using a free open-source tool called arc-export. The whole process takes about 5 minutes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;arc-browser-is-abandoned--now-what&#34;&gt;Arc Browser Is Abandoned — Now What?&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s not sugarcoat it. Arc Browser, the browser I &lt;a href=&#34;https://nathan.swiss/posts/arc&#34;&gt;fell in love with in 2022&lt;/a&gt; and then &lt;a href=&#34;https://nathan.swiss/posts/zen&#34;&gt;reluctantly left in early 2025&lt;/a&gt;, is effectively abandoned. The Browser Company shifted its entire focus to Dia, their new AI-driven project, and Arc has been on life support ever since. No new features, just the occasional maintenance patch to keep the lights on.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fraktur: Beyond Misconceptions, Into Elegance</title>
       <link>https://nathan.swiss/posts/fraktur/</link>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Nathan Buache - How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://nathan.swiss/favicon.png">
+  <link rel="canonical" href="https://nathan.swiss/posts/arc-to-zen-export/" />
+    
+    
+    <link rel="stylesheet" href="/css/style.min.96f0b436e400a275d5bd42339f37507b21e237bdd2100978cc51be7cb11fa35e.css">
+    <link rel="stylesheet" href="/assets/css/extended.min.991120ae9758ec14113083127d6775d163b3872949cf68dd47578d709913fef6.css">
+
+  
+    <meta name="description" content="The complete guide to transfer your tabs, bookmarks, and data from Arc Browser to Zen Browser using arc-export. Move from Arc to Zen in minutes."/>
+    <meta name="author" content="Nathan Buache"/>
+    <meta name="keywords" content="Nathan Buache, Test Manager, QA, Quality Assurance, Lausanne, Switzerland, Web Testing, Software Testing, QoQa"/>
+    <meta property="og:title" content="How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide) - Nathan Buache"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://nathan.swiss/posts/arc-to-zen-export/"/>
+    <meta property="og:site_name" content="Nathan Buache"/>
+    
+    <meta property="og:description" content="The complete guide to transfer your tabs, bookmarks, and data from Arc Browser to Zen Browser using arc-export. Move from Arc to Zen in minutes."/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide)"/>
+    <meta name="twitter:description" content="The complete guide to transfer your tabs, bookmarks, and data from Arc Browser to Zen Browser using arc-export. Move from Arc to Zen in minutes."/>
+    
+    
+  
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=UnifrakturCook:wght@700&amp;display=swap" rel="stylesheet">
+  
+
+  
+<link rel="icon" type="image/x-icon" href="https://nathan.swiss/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nathan.swiss/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nathan.swiss/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://nathan.swiss/apple-touch-icon.png">
+<link rel="manifest" href="https://nathan.swiss/site.webmanifest">
+
+
+
+
+
+<meta property="og:title" content="How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide) | Nathan Buache" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nathan.swiss/posts/arc-to-zen-export/" />
+
+
+<meta property="og:image" content="https://nathan.swiss/favicon.png" />
+
+
+<meta property="og:description" content="The complete guide to transfer your tabs, bookmarks, and data from Arc Browser to Zen Browser using arc-export. Move from Arc to Zen in minutes." />
+<meta property="og:site_name" content="Nathan Buache" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide) | Nathan Buache" />
+<meta name="twitter:description" content="The complete guide to transfer your tabs, bookmarks, and data from Arc Browser to Zen Browser using arc-export. Move from Arc to Zen in minutes." />
+
+<meta name="twitter:image" content="https://nathan.swiss/favicon.png" />
+
+
+
+  
+  
+  
+  
+</head>
+
+
+
+
+<body class='page page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="https://nathan.swiss/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="https://nathan.swiss/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-info">
+                    <a href="https://nathan.swiss/info/">Info</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-projects">
+                    <a href="https://nathan.swiss/projects/">Projects</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-info ">
+        <a href="/info/">
+          
+          <span>Info</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-projects ">
+        <a href="/projects/">
+          
+          <span>Projects</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    <div class="intro">
+      <h1>How to Export Your Tabs from Arc Browser and Import Them into Zen Browser (Step-by-Step Guide)</h1>
+      
+    </div>
+    <div class="content">
+      <p><strong>TL;DR</strong>: Arc Browser is abandoned (or close to it). Here&rsquo;s exactly how I exported all my tabs from Arc and imported them into Zen Browser using a free open-source tool called arc-export. The whole process takes about 5 minutes.</p>
+<h2 id="arc-browser-is-abandoned--now-what">Arc Browser Is Abandoned — Now What?</h2>
+<p>Let&rsquo;s not sugarcoat it. Arc Browser, the browser I <a href="/posts/arc">fell in love with in 2022</a> and then <a href="/posts/zen">reluctantly left in early 2025</a>, is effectively abandoned. The Browser Company shifted its entire focus to Dia, their new AI-driven project, and Arc has been on life support ever since. No new features, just the occasional maintenance patch to keep the lights on.</p>
+<p>If you&rsquo;re reading this, you&rsquo;re probably an ex-Arc user who&rsquo;s already made the decision to switch, or you&rsquo;re about to. And if you&rsquo;ve landed on Zen Browser as your next home (smart choice), the big question is: <strong>how do you actually transfer your tabs and bookmarks from Arc to Zen?</strong></p>
+<p>Because Arc, in its infinite wisdom, never built a proper export feature. Classic.</p>
+<h2 id="the-problem-arc-doesnt-let-you-export-your-tabs">The Problem: Arc Doesn&rsquo;t Let You Export Your Tabs</h2>
+<p>This is the part that frustrated me the most. You&rsquo;d think a modern browser would have a simple &ldquo;Export Bookmarks&rdquo; button somewhere. Chrome has it. Firefox has it. Even Edge has it. But Arc? Nope. Your pinned tabs, your carefully organized spaces, your whole browsing life — locked inside Arc with no official way out.</p>
+<p>I spent an embarrassing amount of time looking for a hidden export option. There isn&rsquo;t one. If you&rsquo;re searching for &ldquo;Arc Browser export tabs&rdquo; or &ldquo;Arc Browser export bookmarks,&rdquo; save yourself the trouble: it doesn&rsquo;t exist natively.</p>
+<h2 id="the-solution-arc-export-a-free-open-source-tool">The Solution: arc-export (A Free Open-Source Tool)</h2>
+<p>This is where <a href="https://github.com/ivnvxd/arc-export">arc-export</a> saved my life. It&rsquo;s a simple Python script that reads Arc&rsquo;s internal data file (<code>StorableSidebar.json</code>) and converts your pinned tabs into a standard HTML bookmarks file that any browser can import — including Zen.</p>
+<p>The tool has over 1,200 stars on GitHub, which tells you just how many people have faced this exact problem.</p>
+<h3 id="what-you-need">What You Need</h3>
+<ul>
+<li>A Mac (Arc stores its data differently on macOS)</li>
+<li>Python 3 installed (it comes pre-installed on most Macs)</li>
+<li>Arc Browser still installed (we need its data files)</li>
+<li>About 5 minutes of your time</li>
+</ul>
+<h3 id="step-1-download-arc-export">Step 1: Download arc-export</h3>
+<p>Open your terminal and run:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -o main.py https://raw.githubusercontent.com/ivnvxd/arc-export/main/main.py
+</span></span></code></pre></div><p>Or if you prefer cloning the whole repository:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone git@github.com:ivnvxd/arc-export.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> arc-export
+</span></span></code></pre></div><h3 id="step-2-run-the-script">Step 2: Run the Script</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 main.py -v
+</span></span></code></pre></div><p>The <code>-v</code> flag gives you verbose output so you can see exactly what&rsquo;s being exported. The script automatically finds Arc&rsquo;s data in <code>~/Library/Application Support/Arc/StorableSidebar.json</code> and converts everything.</p>
+<p>If you want to specify a custom output path:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 main.py -v -o my_arc_bookmarks.html
+</span></span></code></pre></div><h3 id="step-3-check-your-exported-file">Step 3: Check Your Exported File</h3>
+<p>The script generates an HTML bookmarks file with a timestamp (something like <code>bookmarks_2026-02-12.html</code>). Open it in any text editor to verify your tabs are all there. You&rsquo;ll see your spaces, pinned tabs, and folders preserved in the standard Netscape Bookmark format.</p>
+<h3 id="step-4-import-into-zen-browser">Step 4: Import into Zen Browser</h3>
+<p>Now the easy part:</p>
+<ol>
+<li>Open <strong>Zen Browser</strong></li>
+<li>Press <code>Ctrl+Shift+O</code> (or <code>Cmd+Shift+O</code> on Mac) to open the Bookmarks Manager</li>
+<li>Click the <strong>Import and Backup</strong> menu (the icon with arrows)</li>
+<li>Select <strong>Import Bookmarks from HTML</strong></li>
+<li>Choose the HTML file you just exported</li>
+<li>Done — your Arc tabs are now in Zen</li>
+</ol>
+<p>Your folders and structure should be preserved. Zen handles the Netscape Bookmark format beautifully, and since it&rsquo;s built on Firefox, the import engine is rock solid.</p>
+<h2 id="zen-browser-also-has-a-direct-arc-import-feature">Zen Browser Also Has a Direct Arc Import Feature</h2>
+<p>Here&rsquo;s something I discovered after going through the manual export process: Zen Browser actually has a <strong>built-in Arc import option</strong> in its migration wizard. When you first install Zen (or go to Settings → Import), you can directly import from Arc Browser.</p>
+<p>Honestly? I&rsquo;d recommend trying the direct import first. It worked well for basic bookmarks and history. But if you want complete control over what gets transferred, or if the direct import misses some of your pinned tabs (which happened to me with a few deeply nested spaces), the arc-export method above is your safety net.</p>
+<h2 id="why-zen-browser-is-the-best-home-for-ex-arc-users">Why Zen Browser Is the Best Home for Ex-Arc Users</h2>
+<p>I&rsquo;ve written about <a href="/posts/zen">why I switched to Zen</a> and about <a href="/posts/zen-folders">how browsers are evolving in 2025</a>, but let me quickly summarize why Zen is specifically great for people coming from Arc:</p>
+<ol>
+<li><strong>Vertical tabs by default</strong> — If you loved Arc&rsquo;s sidebar tabs, Zen feels immediately familiar.</li>
+<li><strong>Workspaces</strong> — Zen&rsquo;s workspace system is similar to Arc&rsquo;s Spaces, and arguably more flexible.</li>
+<li><strong>Privacy-first</strong> — Built on Firefox, not Chromium. Your data stays yours.</li>
+<li><strong>Active development</strong> — Unlike Arc, Zen has a transparent roadmap and regular updates. The project is alive and thriving.</li>
+<li><strong>Lightweight</strong> — Noticeably faster than Arc, especially with many tabs open.</li>
+</ol>
+<h2 id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
+<p><strong>&ldquo;The script can&rsquo;t find StorableSidebar.json&rdquo;</strong></p>
+<p>Manually copy the file from <code>~/Library/Application Support/Arc/</code> to the same directory as <code>main.py</code>, then run the script again.</p>
+<p><strong>&ldquo;Some of my tabs are missing from the export&rdquo;</strong></p>
+<p>The arc-export tool only exports <strong>pinned tabs</strong>, not ephemeral/unpinned ones. If you have important unpinned tabs, pin them in Arc first before running the export.</p>
+<p><strong>&ldquo;Zen&rsquo;s direct import doesn&rsquo;t show Arc as an option&rdquo;</strong></p>
+<p>Make sure Arc is still installed on your system. Zen needs to detect Arc&rsquo;s profile data to offer the import option. If it still doesn&rsquo;t appear, use the arc-export HTML method instead — it always works.</p>
+<p><strong>&ldquo;My folder structure looks different after import&rdquo;</strong></p>
+<p>Arc organizes tabs into Spaces, while Zen uses bookmark folders. The mapping isn&rsquo;t always 1:1, but your data is all there. You might need to reorganize a few folders manually, which takes a couple of minutes.</p>
+<h2 id="is-arc-browser-still-good-in-2026">Is Arc Browser Still Good in 2026?</h2>
+<p>Honestly? Arc still <em>works</em>. The browser itself is stable and the core features remain solid. But &ldquo;still works&rdquo; isn&rsquo;t the same as &ldquo;still good.&rdquo; There have been no meaningful feature updates in over a year. The Windows version never left beta. The mobile apps are frozen in time. And The Browser Company&rsquo;s attention is entirely on Dia.</p>
+<p>If you&rsquo;re still using Arc and it works for you, there&rsquo;s no urgent reason to panic. But if you&rsquo;re making a decision today about which browser to invest your time in, Arc is not the horse I&rsquo;d bet on. Zen is where the momentum, the community, and the innovation are right now.</p>
+<h2 id="the-bottom-line">The Bottom Line</h2>
+<p>Moving from Arc to Zen Browser doesn&rsquo;t have to be painful. Between Zen&rsquo;s built-in import and the arc-export tool, you can transfer your entire browsing life in under 5 minutes. I did it, thousands of others have done it, and you can too.</p>
+<p>The browser that once felt like the future is now the past. Time to find your Zen.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <div class="social-link">
+        <a href="https://github.com/nthnbch?source=nathan.swiss" title="Github" target="_blank" rel="noopener">
+          Github
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/nathanbuache/?source=nathan.swiss" title="LinkedIn" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://www.qoqa.ch/fr/posts/5275?source=nathan.swiss" title="QoQa" target="_blank" rel="noopener">
+          QoQa
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://gfolk.me/nthnbch?source=nathan.swiss" title="Distinguished Gentlemen&#39;s Ride" target="_blank" rel="noopener">
+          Distinguished Gentlemen&#39;s Ride
+        </a>
+      </div>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFR91K2J2Y"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FFR91K2J2Y');
+      </script>
+    
+  
+
+  
+
+  
+
+</body>
+</html>
