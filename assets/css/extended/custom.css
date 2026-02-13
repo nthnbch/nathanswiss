@@ -85,3 +85,57 @@
 .menu-main-mobile.open {
   background: var(--surface) !important;
 }
+
+/* Print-friendly styles */
+@media print {
+  body {
+    font-family: 'Inter', Georgia, serif;
+    color: #000;
+    background: #fff;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  header, footer, nav,
+  .menu-main-mobile,
+  .header-logo:before,
+  .header-logo:after {
+    display: none !important;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+    color: #000;
+  }
+
+  p, blockquote {
+    orphans: 3;
+    widows: 3;
+  }
+
+  pre, code {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+}

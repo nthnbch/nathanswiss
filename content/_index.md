@@ -1,6 +1,6 @@
 ---
 title: nathan buache.
-description: Senior Test Manager based in Lausanne, Switzerland. QA specialist, blindtest champion, and côte de bœuf grillmaster. Explore my blog, projects, and professional journey.
+description: Senior Test Manager in Lausanne, Switzerland. QA specialist, blindtest champion, and côte de bœuf grillmaster.
 ---
 
 Senior Test Manager by day, blindtest champion by night, officially certified côte de bœuf grillmaster.

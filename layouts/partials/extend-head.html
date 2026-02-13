@@ -5,5 +5,18 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
 <link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
 
+<!-- Dublin Core Meta Tags -->
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="DC.creator" content="Nathan Buache" />
+<meta name="DC.subject" content="Test Manager, QA, Quality Assurance, Software Testing" />
+<meta name="DC.description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ else }}Senior Test Manager in Lausanne, Switzerland. QA specialist.{{ end }}{{ end }}" />
+<meta name="DC.publisher" content="Nathan Buache" />
+<meta name="DC.type" content="{{ if .IsPage }}Text{{ else }}Collection{{ end }}" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.language" content="{{ .Site.LanguageCode | default "en" }}" />
+{{ with .Permalink }}<meta name="DC.identifier" content="{{ . }}" />{{ end }}
+{{ if not .Date.IsZero }}<meta name="DC.date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
+
 <!-- Open Graph and Twitter Card Meta Tags -->
 {{ partial "og-meta.html" . }}
