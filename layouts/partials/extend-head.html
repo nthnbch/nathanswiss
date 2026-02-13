@@ -5,6 +5,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
 <link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
 
+<!-- Print-friendly stylesheet -->
+<link rel="stylesheet" href="{{ "css/print.css" | absURL }}" media="print">
+
 <!-- Dublin Core Meta Tags -->
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 <meta name="DC.title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
