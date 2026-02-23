@@ -178,15 +178,15 @@
     </div>
     <div class="content">
       <p><strong>TL;DR</strong>: Arc Browser is abandoned (or close to it). Here&rsquo;s exactly how I exported all my tabs from Arc and imported them into Zen Browser using a free open-source tool called arc-export. The whole process takes about 5 minutes.</p>
-<h2 id="arc-browser-is-abandoned--now-what">Arc Browser Is Abandoned — Now What?</h2>
+<h2 id="arc-browser-is-abandoned--now-what">Arc Browser Is Abandoned : Now What?</h2>
 <p>Let&rsquo;s not sugarcoat it. Arc Browser, the browser I <a href="/posts/arc">fell in love with in 2022</a> and then <a href="/posts/zen">reluctantly left in early 2025</a>, is effectively abandoned. The Browser Company shifted its entire focus to Dia, their new AI-driven project, and Arc has been on life support ever since. No new features, just the occasional maintenance patch to keep the lights on.</p>
 <p>If you&rsquo;re reading this, you&rsquo;re probably an ex-Arc user who&rsquo;s already made the decision to switch, or you&rsquo;re about to. And if you&rsquo;ve landed on Zen Browser as your next home (smart choice), the big question is: <strong>how do you actually transfer your tabs and bookmarks from Arc to Zen?</strong></p>
 <p>Because Arc, in its infinite wisdom, never built a proper export feature. Classic.</p>
 <h2 id="the-problem-arc-doesnt-let-you-export-your-tabs">The Problem: Arc Doesn&rsquo;t Let You Export Your Tabs</h2>
-<p>This is the part that frustrated me the most. You&rsquo;d think a modern browser would have a simple &ldquo;Export Bookmarks&rdquo; button somewhere. Chrome has it. Firefox has it. Even Edge has it. But Arc? Nope. Your pinned tabs, your carefully organized spaces, your whole browsing life — locked inside Arc with no official way out.</p>
+<p>This is the part that frustrated me the most. You&rsquo;d think a modern browser would have a simple &ldquo;Export Bookmarks&rdquo; button somewhere. Chrome has it. Firefox has it. Even Edge has it. But Arc? Nope. Your pinned tabs, your carefully organized spaces, your whole browsing life : locked inside Arc with no official way out.</p>
 <p>I spent an embarrassing amount of time looking for a hidden export option. There isn&rsquo;t one. If you&rsquo;re searching for &ldquo;Arc Browser export tabs&rdquo; or &ldquo;Arc Browser export bookmarks,&rdquo; save yourself the trouble: it doesn&rsquo;t exist natively.</p>
 <h2 id="the-solution-arc-export-a-free-open-source-tool">The Solution: arc-export (A Free Open-Source Tool)</h2>
-<p>This is where <a href="https://github.com/ivnvxd/arc-export">arc-export</a> saved my life. It&rsquo;s a simple Python script that reads Arc&rsquo;s internal data file (<code>StorableSidebar.json</code>) and converts your pinned tabs into a standard HTML bookmarks file that any browser can import — including Zen.</p>
+<p>This is where <a href="https://github.com/ivnvxd/arc-export">arc-export</a> saved my life. It&rsquo;s a simple Python script that reads Arc&rsquo;s internal data file (<code>StorableSidebar.json</code>) and converts your pinned tabs into a standard HTML bookmarks file that any browser can import, including Zen.</p>
 <p>The tool has over 1,200 stars on GitHub, which tells you just how many people have faced this exact problem.</p>
 <h3 id="what-you-need">What You Need</h3>
 <ul>
@@ -197,7 +197,7 @@
 </ul>
 <h3 id="step-1-download-arc-export">Step 1: Download arc-export</h3>
 <p>Open your terminal and run:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -o main.py https://raw.githubusercontent.com/ivnvxd/arc-export/main/main.py
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -o main.py <span class="o">[</span>https://raw.githubusercontent.com/ivnvxd/arc-export/main/main.py<span class="o">](</span>https://raw.githubusercontent.com/ivnvxd/arc-export/main/main.py<span class="o">)</span>
 </span></span></code></pre></div><p>Or if you prefer cloning the whole repository:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone git@github.com:ivnvxd/arc-export.git
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> arc-export
@@ -216,28 +216,28 @@
 <li>Click the <strong>Import and Backup</strong> menu (the icon with arrows)</li>
 <li>Select <strong>Import Bookmarks from HTML</strong></li>
 <li>Choose the HTML file you just exported</li>
-<li>Done — your Arc tabs are now in Zen</li>
+<li>Done : your Arc tabs are now in Zen</li>
 </ol>
 <p>Your folders and structure should be preserved. Zen handles the Netscape Bookmark format beautifully, and since it&rsquo;s built on Firefox, the import engine is rock solid.</p>
 <h2 id="zen-browser-also-has-a-direct-arc-import-feature">Zen Browser Also Has a Direct Arc Import Feature</h2>
 <p>Here&rsquo;s something I discovered after going through the manual export process: Zen Browser actually has a <strong>built-in Arc import option</strong> in its migration wizard. When you first install Zen (or go to Settings → Import), you can directly import from Arc Browser.</p>
 <p>Honestly? I&rsquo;d recommend trying the direct import first. It worked well for basic bookmarks and history. But if you want complete control over what gets transferred, or if the direct import misses some of your pinned tabs (which happened to me with a few deeply nested spaces), the arc-export method above is your safety net.</p>
 <h2 id="why-zen-browser-is-the-best-home-for-ex-arc-users">Why Zen Browser Is the Best Home for Ex-Arc Users</h2>
-<p>I&rsquo;ve written about <a href="/posts/zen">why I switched to Zen</a> and about <a href="/posts/zen-folders">how browsers are evolving in 2025</a>, but let me quickly summarize why Zen is specifically great for people coming from Arc:</p>
+<p>I&rsquo;ve written about <a href="https://www.google.com/search?q=/posts/zen">why I switched to Zen</a> and about <a href="https://www.google.com/search?q=/posts/zen-folders">how browsers are evolving in 2025</a>, but let me quickly summarize why Zen is specifically great for people coming from Arc:</p>
 <ol>
-<li><strong>Vertical tabs by default</strong> — If you loved Arc&rsquo;s sidebar tabs, Zen feels immediately familiar.</li>
-<li><strong>Workspaces</strong> — Zen&rsquo;s workspace system is similar to Arc&rsquo;s Spaces, and arguably more flexible.</li>
-<li><strong>Privacy-first</strong> — Built on Firefox, not Chromium. Your data stays yours.</li>
-<li><strong>Active development</strong> — Unlike Arc, Zen has a transparent roadmap and regular updates. The project is alive and thriving.</li>
-<li><strong>Lightweight</strong> — Noticeably faster than Arc, especially with many tabs open.</li>
+<li><strong>Vertical tabs by default</strong> : If you loved Arc&rsquo;s sidebar tabs, Zen feels immediately familiar.</li>
+<li><strong>Workspaces</strong> : Zen&rsquo;s workspace system is similar to Arc&rsquo;s Spaces, and arguably more flexible.</li>
+<li><strong>Privacy-first</strong> : Built on Firefox, not Chromium. Your data stays yours.</li>
+<li><strong>Active development</strong> : Unlike Arc, Zen has a transparent roadmap and regular updates. The project is alive and thriving.</li>
+<li><strong>Lightweight</strong> : Noticeably faster than Arc, especially with many tabs open.</li>
 </ol>
 <h2 id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
 <p><strong>&ldquo;The script can&rsquo;t find StorableSidebar.json&rdquo;</strong></p>
 <p>Manually copy the file from <code>~/Library/Application Support/Arc/</code> to the same directory as <code>main.py</code>, then run the script again.</p>
 <p><strong>&ldquo;Some of my tabs are missing from the export&rdquo;</strong></p>
-<p>The arc-export tool only exports <strong>pinned tabs</strong>, not ephemeral/unpinned ones. If you have important unpinned tabs, pin them in Arc first before running the export.</p>
+<p>The arc-export tool only exports <strong>pinned tabs</strong>, not ephemeral or unpinned ones. If you have important unpinned tabs, pin them in Arc first before running the export.</p>
 <p><strong>&ldquo;Zen&rsquo;s direct import doesn&rsquo;t show Arc as an option&rdquo;</strong></p>
-<p>Make sure Arc is still installed on your system. Zen needs to detect Arc&rsquo;s profile data to offer the import option. If it still doesn&rsquo;t appear, use the arc-export HTML method instead — it always works.</p>
+<p>Make sure Arc is still installed on your system. Zen needs to detect Arc&rsquo;s profile data to offer the import option. If it still doesn&rsquo;t appear, use the arc-export HTML method instead : it always works.</p>
 <p><strong>&ldquo;My folder structure looks different after import&rdquo;</strong></p>
 <p>Arc organizes tabs into Spaces, while Zen uses bookmark folders. The mapping isn&rsquo;t always 1:1, but your data is all there. You might need to reorganize a few folders manually, which takes a couple of minutes.</p>
 <h2 id="is-arc-browser-still-good-in-2026">Is Arc Browser Still Good in 2026?</h2>
