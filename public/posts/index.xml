@@ -6,12 +6,12 @@
     <description>Recent content in blog. on Nathan Buache</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 May 2026 07:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 07:00:00 +0200</lastBuildDate>
     <atom:link href="https://nathan.swiss/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FossRec &amp; Torii: Two New Little Projects</title>
       <link>https://nathan.swiss/posts/fossrec-torii/</link>
-      <pubDate>Fri, 01 May 2026 07:00:00 +0200</pubDate>
+      <pubDate>Thu, 30 Apr 2026 07:00:00 +0200</pubDate>
       <guid>https://nathan.swiss/posts/fossrec-torii/</guid>
       <description>&lt;p&gt;Two new repos just landed on my GitHub. One records audio. The other routes your entire Mac through the Tor network. Naturally, they have absolutely nothing in common, except that I built both of them because the existing options were either bloated, suspicious, or both.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fossrec-an-audio-recorder-that-minds-its-own-business&#34;&gt;FossRec: An Audio Recorder That Minds Its Own Business&lt;/h2&gt;&#xA;&lt;p&gt;Every audio recorder on the Play Store seems to think it needs internet access, an account, and probably your firstborn&amp;rsquo;s biometric data. I tried a dozen of them. They all had at least one fatal flaw: unnecessary permissions, silent uploads, mandatory accounts, or hidden telemetry. So I did what any reasonable person would do: I wrote my own.&lt;/p&gt;</description>
     </item>

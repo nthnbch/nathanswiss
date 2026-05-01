@@ -1,6 +1,6 @@
 ---
 title: "FossRec & Torii: Two New Little Projects"
-date: 2026-05-01T07:00:00+02:00
+date: 2026-04-30T07:00:00+02:00
 description: "A minimal Android audio recorder and a macOS Tor client walk into a GitHub repo."
 draft: false
 tldr: record offline, browse invisible.
