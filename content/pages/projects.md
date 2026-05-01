@@ -12,6 +12,20 @@ A clean, modern Hugo theme featuring Fraktur typography and Material Design 3 pr
 
 ---
 
+## Torii
+A minimal macOS menu bar app that connects your Mac to the Tor network with one click. System-wide SOCKS proxy, live status, exit country picker, bandwidth monitor.
+
+*GitHub:* [nthnbch/torii](https://github.com/nthnbch/torii)
+
+---
+
+## FossRec
+A minimal, private Android audio recorder. No internet, no accounts, no tracking. Records audio and saves it locally on device.
+
+*GitHub:* [nthnbch/FossRec](https://github.com/nthnbch/FossRec)
+
+---
+
 ## Quote of the Day
 A minimalist website delivering daily inspirational quotes. Simple, clean, and focused on content.
 

@@ -3,7 +3,6 @@ title: "FossRec & Torii: Two New Little Projects"
 date: 2026-04-30T07:00:00+02:00
 description: "A minimal Android audio recorder and a macOS Tor client walk into a GitHub repo."
 draft: false
-tldr: record offline, browse invisible.
 ---
 
 Two new repos just landed on my GitHub. One records audio. The other routes your entire Mac through the Tor network. Naturally, they have absolutely nothing in common, except that I built both of them because the existing options were either bloated, suspicious, or both.
