@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.homePageSubtitle | default "Nathan Buache" }}{{ else }}{{ .Site.Title }} - {{ .Title }}{{ end }}{{ end }}</title>
+  <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.homePageSubtitle | default "Nathan Buache" }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
   <link rel="canonical" href="{{ .Permalink }}" />
+
+  {{/* --- Meta Description (always present, with fallback) --- */}}
+  {{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}"/>
+  {{ else if .IsHome }}
+    <meta name="description" content="Nathan Buache — Senior Test Manager and QA Specialist based in Lausanne, Switzerland. Blog, projects, and insights on quality assurance and software testing."/>
+  {{ else if .Summary }}
+    <meta name="description" content="{{ .Summary | plainify | truncate 160 }}"/>
+  {{ else }}
+    <meta name="description" content="Nathan Buache — Test Manager and QA Specialist in Lausanne, Switzerland."/>
+  {{ end }}
+  <meta name="author" content="Nathan Buache"/>
 
   {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
@@ -21,30 +33,15 @@
     <link rel="stylesheet" href="{{ ($extended).RelPermalink }}">
   {{- end }}
 
-  {{ block "meta_tags" . }}
-    {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}"/>{{ end }}
-    <meta name="author" content="Nathan Buache"/>
-    <meta name="keywords" content="Nathan Buache, Test Manager, QA, Quality Assurance, Lausanne, Switzerland, Web Testing, Software Testing, QoQa"/>
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.homePageSubtitle | default "Nathan Buache" }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ .Permalink }}"/>
-    <meta property="og:site_name" content="{{ .Site.Title }}"/>
-    {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}"/>{{ end }}
-    {{ if .Params.description }}<meta property="og:description" content="{{ .Params.description }}"/>{{ else }}<meta property="og:description" content="Test Manager based in Lausanne, Switzerland. QA specialist sharing insights on testing, technology, and quality assurance."/>{{ end }}
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.homePageSubtitle | default "Nathan Buache" }}{{ else }}{{ .Title }}{{ end }}"/>
-    {{ if .Params.description }}<meta name="twitter:description" content="{{ .Params.description }}"/>{{ end }}
-    {{ if .Site.Params.twitter_handle }}<meta name="twitter:site" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
-    {{ if .Site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
-  {{ end }}
-
   {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
   {{ end }}
 
   {{ partial "extend-head.html" . }}
-  
+
+  {{/* --- Structured Data: Person (homepage) --- */}}
   {{ if .IsHome }}
   <script type="application/ld+json">
   {
@@ -54,12 +51,14 @@
     "givenName": "Nathan",
     "familyName": "Buache",
     "url": "{{ .Site.BaseURL }}",
-    "jobTitle": "Test Manager",
-    "description": "Test Manager and QA Specialist based in Lausanne, Switzerland",
+    "jobTitle": "Senior Test Manager",
+    "description": "Senior Test Manager and QA Specialist based in Lausanne, Switzerland, with over a decade of experience in quality assurance and software testing.",
+    "knowsAbout": ["Quality Assurance", "Software Testing", "Test Management", "QA Strategy", "Web Testing", "Mobile App Testing"],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Lausanne",
-      "addressCountry": "Switzerland"
+      "addressRegion": "Vaud",
+      "addressCountry": "CH"
     },
     "sameAs": [
       "https://github.com/nthnbch",
@@ -68,9 +67,83 @@
   }
   </script>
   {{ end }}
-  
-  {{ if eq .Section "pages" }}
-  <meta name="robots" content="noindex, nofollow"/>
+
+  {{/* --- Structured Data: WebSite (homepage) --- */}}
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "Personal website of Nathan Buache — Senior Test Manager and QA Specialist based in Lausanne, Switzerland.",
+    "author": {
+      "@type": "Person",
+      "name": "Nathan Buache"
+    },
+    "inLanguage": "{{ .Site.LanguageCode | default "en" }}"
+  }
+  </script>
+  {{ end }}
+
+  {{/* --- Structured Data: Article (blog posts) --- */}}
+  {{ if and (eq .Section "posts") .IsPage }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+    "url": "{{ .Permalink }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    {{ if not .Lastmod.IsZero }}"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+    "author": {
+      "@type": "Person",
+      "name": "Nathan Buache",
+      "url": "{{ .Site.BaseURL }}"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Nathan Buache",
+      "url": "{{ .Site.BaseURL }}"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "inLanguage": "{{ .Site.LanguageCode | default "en" }}"
+  }
+  </script>
+  {{ end }}
+
+  {{/* --- Structured Data: BreadcrumbList (all pages except home) --- */}}
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ .Site.BaseURL }}"
+      }{{ if .Section }},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ .Section | title }}",
+        "item": "{{ .Site.BaseURL }}{{ .Section }}/"
+      }{{ end }}{{ if .IsPage }},
+      {
+        "@type": "ListItem",
+        "position": {{ if .Section }}3{{ else }}2{{ end }},
+        "name": "{{ .Title }}",
+        "item": "{{ .Permalink }}"
+      }{{ end }}
+    ]
+  }
+  </script>
   {{ end }}
 </head>
 
@@ -81,8 +154,10 @@
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
     {{ partial "header.html" . }}
-    {{ block "main" . }}
-    {{ end }}
+    <main id="main-content">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
     {{ partial "footer.html" . }}
   </div>
 

@@ -1,0 +1,16 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<article>
+  <div class="intro">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.image }}
+    <img alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
+    {{ end }}
+  </div>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

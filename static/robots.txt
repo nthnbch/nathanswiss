@@ -1,4 +1,8 @@
+# nathan.swiss - Robots.txt
+# Welcome crawlers and AI agents
+
 User-agent: *
 Allow: /
 
+# Sitemap reference
 Sitemap: https://nathan.swiss/sitemap.xml
