@@ -63,8 +63,3 @@ disableKinds = ["taxonomy", "term"]
     identifier = "projects"
     weight = 4
     url = "/projects/"
-  [[menu.main]]
-    name = "Contact"
-    identifier = "contact"
-    weight = 4
-    url = "/contact/"  
