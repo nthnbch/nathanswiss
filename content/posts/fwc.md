@@ -1,7 +1,7 @@
 ---
 title: "FIFA World Cup: The Show Must Go On"
 
-date: 2026-09-09T09:30:00+01:00
+date: 2026-07-09T09:30:00+01:00
 
 description: "A personal take on how the FIFA World Cup slowly became less about football and more about money, politics and spectacle."
 

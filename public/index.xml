@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Thu, 30 Apr 2026 07:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Thu, 09 Jul 2026 09:30:00 +0100</lastBuildDate>
 		
 			<atom:link href="https://nathan.swiss/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>FIFA World Cup: The Show Must Go On</title>
+				<link>https://nathan.swiss/posts/fwc/</link>
+				<pubDate>Thu, 09 Jul 2026 09:30:00 +0100</pubDate>
+				<guid>https://nathan.swiss/posts/fwc/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The FIFA World Cup is no longer just about football. It has become an expensive, political and carefully managed spectacle where business often matters more than the game.&lt;/p&gt;&#xA;&lt;p&gt;A few years ago, I used to count the days until the World Cup. Every four years, it felt like the entire planet agreed on one thing. Different cultures, different languages, different histories, all meeting around the same ball.&lt;/p&gt;&#xA;&lt;p&gt;Today, I mostly feel detached.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>FossRec &amp; Torii: Two New Little Projects</title>
 				<link>https://nathan.swiss/posts/fossrec-torii/</link>

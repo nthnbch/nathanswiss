@@ -3,10 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nathan.swiss/posts/fossrec-torii/</loc>
-    <lastmod>2026-04-30T07:00:00+02:00</lastmod>
+    <loc>https://nathan.swiss/posts/fwc/</loc>
+    <lastmod>2026-07-09T09:30:00+01:00</lastmod>
   </url><url>
     <loc>https://nathan.swiss/</loc>
+    <lastmod>2026-07-09T09:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://nathan.swiss/posts/fossrec-torii/</loc>
     <lastmod>2026-04-30T07:00:00+02:00</lastmod>
   </url><url>
     <loc>https://nathan.swiss/posts/arc-to-zen-export/</loc>
