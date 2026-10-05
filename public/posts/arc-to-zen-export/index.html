@@ -8,6 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://nathan.swiss/favicon.png">
   <link rel="canonical" href="https://nathan.swiss/posts/arc-to-zen-export/" />
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
 
   
   
@@ -16,14 +24,10 @@
   <meta name="author" content="Nathan Buache"/>
     
     
-    <link rel="stylesheet" href="/css/style.min.1c18def2aed6b057aa439fbec51b1d6f55f2d2d8073fe48390bceb467a226be6.css">
-    <link rel="stylesheet" href="/assets/css/extended.min.9f76fdd83bd4f722bc7b7bc0bd50fe31ba218702da84db1ce6eef0242cf5c5f1.css">
-
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=UnifrakturCook:wght@700&amp;display=swap" rel="stylesheet">
-  
+    <link rel="stylesheet" href="/css/style.min.6fb5471bbb7797bf988617682249e5b89296ab18b6141bf3bf56306c332e9659.css">
+    <link rel="stylesheet" href="/assets/css/extended.min.9f76fdd83bd4f722bc7b7bc0bd50fe31ba218702da84db1ce6eef0242cf5c5f1.css"><link rel="preload" href="/fonts/UnifrakturCook.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/InterVariable-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
   
 <link rel="icon" type="image/x-icon" href="https://nathan.swiss/favicon.ico">
@@ -229,8 +233,16 @@
       
     </ul>
   </div>
-  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
-    <button class="hamburger">Menu</button>
+  <div class="header-right">
+    
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+      <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    </button>
+    
+    <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+      <button class="hamburger" aria-label="Toggle Menu">Menu</button>
+    </div>
   </div>
 </div>
     <main id="main-content">
@@ -345,13 +357,19 @@
     
   </div>
   
+
+  <div class="footer-meta">
+    Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+    &bull;
+    Theme:&nbsp;<a href="https://github.com/nthnbch/hugo-fraktur-theme" target="_blank" rel="noopener">Fraktur</a>
+  </div>
 </div>
   </div>
 
   
 
   
-    <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+    <script type="text/javascript" src="/js/bundle.min.5f0b7f50293822c8ec9be53a720095182d2d9e55aa0dd8ef2faea6035f083ac0.js"></script>
   
 
   
