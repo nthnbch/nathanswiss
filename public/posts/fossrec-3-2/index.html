@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FossRec 3.2: Lock, Split, Widgets and Still No Internet — Nathan Buache</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://nathan.swiss/favicon.png">
+  <link rel="canonical" href="https://nathan.swiss/posts/fossrec-3-2/" />
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+
+  
+  
+    <meta name="description" content="FossRec 3.2 adds an optional fingerprint lock, automatic splitting of long recordings, home-screen widgets, theme and language choice, and metadata scrubbing."/>
+  
+  <meta name="author" content="Nathan Buache"/>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.6fb5471bbb7797bf988617682249e5b89296ab18b6141bf3bf56306c332e9659.css">
+    <link rel="stylesheet" href="/assets/css/extended.min.9f76fdd83bd4f722bc7b7bc0bd50fe31ba218702da84db1ce6eef0242cf5c5f1.css"><link rel="preload" href="/fonts/UnifrakturCook.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/InterVariable-Italic.woff2" as="font" type="font/woff2" crossorigin>
+
+  
+<link rel="icon" type="image/x-icon" href="https://nathan.swiss/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nathan.swiss/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nathan.swiss/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://nathan.swiss/apple-touch-icon.png">
+<link rel="manifest" href="https://nathan.swiss/site.webmanifest">
+
+
+<link rel="stylesheet" href="https://nathan.swiss/css/print.css" media="print">
+
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content="FossRec 3.2: Lock, Split, Widgets and Still No Internet" />
+<meta name="DC.creator" content="Nathan Buache" />
+<meta name="DC.subject" content="Test Manager, QA, Quality Assurance, Software Testing" />
+<meta name="DC.description" content="FossRec 3.2 adds an optional fingerprint lock, automatic splitting of long recordings, home-screen widgets, theme and language choice, and metadata scrubbing." />
+<meta name="DC.publisher" content="Nathan Buache" />
+<meta name="DC.type" content="Text" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.language" content="en-US" />
+<meta name="DC.identifier" content="https://nathan.swiss/posts/fossrec-3-2/" />
+<meta name="DC.date" content="2026-11-03" />
+
+
+
+
+
+
+
+  
+
+
+
+<meta property="og:title" content="FossRec 3.2: Lock, Split, Widgets and Still No Internet — Nathan Buache" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nathan.swiss/posts/fossrec-3-2/" />
+<meta property="og:description" content="FossRec 3.2 adds an optional fingerprint lock, automatic splitting of long recordings, home-screen widgets, theme and language choice, and metadata scrubbing." />
+<meta property="og:site_name" content="Nathan Buache" />
+<meta property="og:locale" content="en-US" />
+
+<meta property="og:image" content="https://nathan.swiss/android-chrome-512x512.png" />
+
+
+
+<meta property="article:published_time" content="2026-11-03T07:00:00&#43;01:00" />
+<meta property="article:modified_time" content="2026-11-03T07:00:00&#43;01:00" />
+<meta property="article:author" content="Nathan Buache" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="FossRec 3.2: Lock, Split, Widgets and Still No Internet — Nathan Buache" />
+<meta name="twitter:description" content="FossRec 3.2 adds an optional fingerprint lock, automatic splitting of long recordings, home-screen widgets, theme and language choice, and metadata scrubbing." />
+
+<meta name="twitter:image" content="https://nathan.swiss/android-chrome-512x512.png" />
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "FossRec 3.2: Lock, Split, Widgets and Still No Internet",
+    "description": "FossRec 3.2 adds an optional fingerprint lock, automatic splitting of long recordings, home-screen widgets, theme and language choice, and metadata scrubbing.",
+    "url": "https:\/\/nathan.swiss\/posts\/fossrec-3-2\/",
+    "datePublished": "2026-11-03T07:00:00\u002b01:00",
+    "dateModified": "2026-11-03T07:00:00\u002b01:00",
+    "author": {
+      "@type": "Person",
+      "name": "Nathan Buache",
+      "url": "https:\/\/nathan.swiss\/"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Nathan Buache",
+      "url": "https:\/\/nathan.swiss\/"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/nathan.swiss\/posts\/fossrec-3-2\/"
+    },
+    "inLanguage": "en-US"
+  }
+  </script>
+  
+
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https:\/\/nathan.swiss\/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Posts",
+        "item": "https:\/\/nathan.swiss\/posts/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "FossRec 3.2: Lock, Split, Widgets and Still No Internet",
+        "item": "https:\/\/nathan.swiss\/posts\/fossrec-3-2\/"
+      }
+    ]
+  }
+  </script>
+  
+</head>
+
+
+
+
+<body class='page page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="https://nathan.swiss/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="https://nathan.swiss/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-info">
+                    <a href="https://nathan.swiss/info/">Info</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-projects">
+                    <a href="https://nathan.swiss/projects/">Projects</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-info ">
+        <a href="/info/">
+          
+          <span>Info</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-projects ">
+        <a href="/projects/">
+          
+          <span>Projects</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="header-right">
+    
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+      <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    </button>
+    
+    <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+      <button class="hamburger" aria-label="Toggle Menu">Menu</button>
+    </div>
+  </div>
+</div>
+    <main id="main-content">
+      
+  <div class="blog">
+    <div class="intro">
+      <h1>FossRec 3.2: Lock, Split, Widgets and Still No Internet</h1>
+      
+    </div>
+    <div class="content">
+      <p>A few months ago I introduced <a href="/posts/fossrec-torii/">FossRec</a>, my minimal Android audio recorder that minds its own business. Version 3.2 is out, and it&rsquo;s the biggest update so far. The rule stayed the same: <strong>no internet permission, no account, no cloud, no tracking.</strong> Everything below happens on your phone and nowhere else.</p>
+<h2 id="split-long-recordings-automatically">Split Long Recordings Automatically</h2>
+<p>Some speech-to-text tools reject files above 100 MB, or just work better on shorter ones. In <strong>Settings → Recording</strong>, FossRec can now cut a recording into several files <em>without ever stopping it</em>.</p>
+<ul>
+<li>Split by <strong>file size</strong>: 25, 50, <strong>100</strong>, 200 or 500 MB</li>
+<li>Split by <strong>duration</strong>: 5, 10, <strong>15</strong>, 30 or 60 minutes</li>
+<li>Both are off by default and can be combined: the first limit reached wins</li>
+</ul>
+<p>When a limit is hit, the current part is saved and the next one starts right away. There may be a gap of a fraction of a second at the cut, which is honest physics and not a bug. Parts are named <code>Recording_&lt;date&gt;_part01.m4a</code>, <code>_part02</code>, and so on, and the list shows them <strong>linked together</strong>: one header with the number of parts, total duration and size, and the parts hanging below it on a vertical line. One tap on the trash icon deletes them all.</p>
+<p>For reference, at the default bitrate 100 MB is about 69 minutes of audio.</p>
+<h2 id="optional-fingerprint-lock">Optional Fingerprint Lock</h2>
+<p>Turn it on in <strong>Settings → Security &amp; privacy</strong> and FossRec asks for your fingerprint, face unlock or screen lock every time you open it, and locks again whenever you leave. Turning it <em>off</em> also requires your fingerprint, so nobody can quietly remove it while you&rsquo;re getting coffee.</p>
+<p>One caveat, stated plainly because it matters: the lock protects the <strong>app screen</strong>, not the files. They are not encrypted. Someone who can unlock your phone and plug it into a computer can still reach them.</p>
+<h2 id="widgets">Widgets</h2>
+<p>Two home-screen widgets, because starting a recording should take one tap, not four:</p>
+<ul>
+<li><strong>FossRec · Mini</strong> (1×1): a single start/stop button with a tiny timer</li>
+<li><strong>FossRec · Large</strong> (4×2): big timer, status, <strong>pause/resume</strong> and start/stop</li>
+</ul>
+<p>If the microphone permission is missing, the button opens the app so you can grant it. And if the lock is enabled, starting from a widget does not unlock anything.</p>
+<h2 id="theme-and-language">Theme and Language</h2>
+<p>Pick <strong>Auto</strong>, <strong>Light</strong> or <strong>Dark</strong> in <strong>Settings → Appearance</strong>. Auto follows your phone&rsquo;s dark mode and, on Android 12 and later, your wallpaper colors (Material You). You can also choose the app language: English, French, or whatever your phone uses.</p>
+<h2 id="no-metadata-left-behind">No Metadata Left Behind</h2>
+<p>Android&rsquo;s recorder quietly embeds a creation date and the Android version inside M4A files. FossRec now <strong>erases both</strong> as soon as a recording is saved, without touching the audio. It never asks for location access and never writes GPS data. What remains is the file name (which contains the date and time) and the file&rsquo;s modification date, so rename a file before sharing it if that matters to you.</p>
+<h2 id="smaller-things">Smaller Things</h2>
+<ul>
+<li>The list <strong>refreshes by itself</strong> when you stop a recording; split parts appear as soon as they start</li>
+<li><strong>Swipe a recording</strong> left or right to delete it, always with a confirmation first</li>
+<li>First-launch <strong>legal notice</strong>: recording people without their consent is illegal in many countries, and you have to tick &ldquo;I have read and understood&rdquo; to continue</li>
+<li>New logo, signed release builds, and updated Android Gradle plugin and Gradle wrapper</li>
+</ul>
+<h2 id="still-tested-on-one-phone">Still Tested on One Phone</h2>
+<p>Pixel 7 Pro. If it works on yours, great. If not, it works on mine.</p>
+<p>Source, screenshots and releases: <a href="https://github.com/nthnbch/FossRec">github.com/nthnbch/FossRec</a></p>
+
+    </div>
+  </div>
+
+    </main>
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <div class="social-link">
+        <a href="https://github.com/nthnbch?source=nathan.swiss" title="Github" target="_blank" rel="noopener">
+          Github
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/nathanbuache/?source=nathan.swiss" title="LinkedIn" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://www.qoqa.ch/fr/posts/5275?source=nathan.swiss" title="QoQa" target="_blank" rel="noopener">
+          QoQa
+        </a>
+      </div>
+    
+      <div class="social-link">
+        <a href="https://gfolk.me/nthnbch?source=nathan.swiss" title="Distinguished Gentlemen&#39;s Ride" target="_blank" rel="noopener">
+          Distinguished Gentlemen&#39;s Ride
+        </a>
+      </div>
+    
+  </div>
+  
+
+  <div class="footer-meta">
+    Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+    &bull;
+    Theme:&nbsp;<a href="https://github.com/nthnbch/hugo-fraktur-theme" target="_blank" rel="noopener">Fraktur</a>
+  </div>
+</div>
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/js/bundle.min.5f0b7f50293822c8ec9be53a720095182d2d9e55aa0dd8ef2faea6035f083ac0.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFR91K2J2Y"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FFR91K2J2Y');
+      </script>
+    
+  
+
+  
+
+  
+
+</body>
+</html>
